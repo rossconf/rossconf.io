@@ -6,6 +6,18 @@ Four maintainers or main contributors to major Open Source projects will get the
 
 ROSS Vienna is a local chapter of the ROSS conference. All ROSS material and resources will be available online, for anyone to use and organise their own local chapter. The logo is an [Open Source project on its own](https://github.com/rossconf/logo/blob/master/README.md). 
 
+Run Site
+=========
+
+This site is built with [middleman](http://middlemanapp.com)
+
+To run a local server that watches for changes from your command line
+
+```
+bundle install  
+bundle exec middleman
+```
+
 Bugs
 =========
 Please open an issue.

@@ -1,0 +1,20 @@
+{
+  "name": "energy-globe-awards",
+  "version": "0.0.1",
+  "homepage": "https://github.com/wirsingio/Energy-Globe-Awards",
+  "authors": [
+    "Aaron Cruz <aaron@aaroncruz.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "source/javascripts/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}

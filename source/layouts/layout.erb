@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="<%= data.content.meta.description %>">
+    <meta name="keywords" content="<%= data.content.meta.keywords.join(', ') %>">
+    <title>
+      <%= current_page.data.title %> | <%= data.content.meta.title %>
+    </title>
+    <link href="apple-touch-icon-152x152-precomposed.png" rel="apple-touch-icon" sizes="152x152" />
+    <link href="apple-touch-icon-144x144-precomposed.png" rel="apple-touch-icon" sizes="144x144" />
+    <link href="apple-touch-icon-114x114-precomposed.png" rel="apple-touch-icon" sizes="114x114" />
+    <link href="apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon" sizes="72x72" />
+    <link href="apple-touch-icon-precomposed.png" rel="apple-touch-icon" />
+    <link href="favicon.png" rel="shortcut icon" />
+    <link href="favicon.ico" rel="icon" type="image/ico" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <%= stylesheet_link_tag "normalize", "all" %>
+  </head>
+  <body class="<%= page_classes %>">
+    <%= partial "partials/nav" %>
+    <%= yield %>
+    <%= javascript_include_tag  "application" %>
+    <%= partial 'partials/analytics' %>
+  </body>
+</html>
