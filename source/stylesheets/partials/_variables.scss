@@ -1,0 +1,23 @@
+$dark: #774F38;
+$medium-dark: #E08E79;
+$medium: #F1D4AF;
+$medium-light: #C5E0DC;
+$light: #ECE5CE;
+$light-text: #FFF;
+$dark-text: #666;
+
+$navigation-background: $dark;
+$navigation-color: $light-text;
+$navigation-color-hover: $medium-dark;
+
+$headline-section: $medium-light;
+$headline-text: $dark-text;
+
+$signup-form-background: $medium;
+$signup-form-color: $dark-text;
+
+$footer-section: $medium-dark;
+$footer-text: $light-text;
+
+$base-button-color: $medium-dark;
+$hover-button-color: darken($base-button-color, 10);
