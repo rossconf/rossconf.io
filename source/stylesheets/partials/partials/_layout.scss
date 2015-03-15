@@ -1,3 +1,15 @@
+body {
+  font-family: 'Raleway', Helvetica, Arial;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+  color: #666;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', Helvetica, Arial;
+}
+
 .container {
   @include outer-container(960px);
 }
@@ -20,7 +32,7 @@ section, footer {
   }
 }
 
-.l_standard-container {
+.l_cells {
   @include media($tablet) {
     padding-bottom: 3rem;
   }
@@ -29,7 +41,7 @@ section, footer {
   }
 }
 
-.l_image-cell {
+.l_cell {
   text-align: center;
 
   padding-left: .5rem;
@@ -44,25 +56,6 @@ section, footer {
 
   @include media($mobile) {
     @include span-columns(4);
-    margin-bottom: 2rem;
-  }
-}
-
-.l_text-cell {
-  text-align: center;
-
-  padding-left: .5rem;
-  padding-right: .5rem;
-
-  @include span-columns(8);
-
-  @include media($tablet) {
-    @include span-columns(12);
-    margin-bottom: 2rem;
-  }
-
-  @include media($mobile) {
-    @include span-columns(8);
     margin-bottom: 2rem;
   }
 }

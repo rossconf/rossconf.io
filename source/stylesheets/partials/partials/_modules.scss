@@ -1,0 +1,91 @@
+@import 'modules/nav';
+@import 'modules/headlines';
+
+.feature-name {
+  margin-bottom: 1.5rem;
+}
+
+.feature-icon {
+  height: 5rem;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+}
+
+.footer-cell {
+  text-align: left;
+
+  .cell-title {
+    padding-bottom: 1rem;
+    border-bottom: .12rem solid $light-text;
+    margin-bottom: 1rem;
+  }
+}
+
+.social-icon {
+  margin-right: 1rem;
+  height: 3rem;
+}
+
+.address {
+  p {
+    line-height: 1.5rem;
+  }
+}
+
+.signup-form {
+  background-color: $signup-form-background;
+  color: $signup-form-color;
+  @include clearfix;
+
+  .signup-form-container {
+    margin-bottom: 3rem;
+  }
+
+  .container {
+    @include span-columns(6);
+    @include shift(3);
+  }
+
+  text-align: center;
+
+  input[type="email"] {
+    width: 60%;
+    margin: 0 auto 2rem;
+
+    @include media($mobile) {
+      width: 100%;
+    }
+  }
+
+  .subscribe-headline {
+    font-family: $serif;
+    font-weight: 800;
+    margin-bottom: .3em;
+
+    @include media($large-screen) {
+      font-size: 2.5rem;
+      margin-bottom: .4em;
+    }
+  }
+
+  .subscribe-subhead {
+    color: lighten($base-font-color, 20);
+    font-size: 1.3em;
+    font-weight: 300;
+    line-height: 1.4em;
+    margin: 0 auto 1em;
+
+    @include media($large-screen) {
+      font-size: 1.7em;
+      line-height: 1.35em;
+      margin: 0 auto 1em;
+      width: 70%;
+    }
+  }
+}
+
+.survey {
+  a {
+    color: $base-button-color;
+  }
+}
