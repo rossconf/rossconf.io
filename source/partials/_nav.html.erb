@@ -1,15 +1,20 @@
 <header class="navigation">
-  <div class="navigation-wrapper">
-    <div class="logo">
-      <a href="/" class="logo-text"><%= settings.site_name %></a>
+  <div class="container">
+    <div class="navigation-wrapper">
+      <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
+      <div class="nav">
+        <ul id="js-navigation-menu" class="navigation-menu show">
+          <li class="nav-link"><%= link_to "Speakers", "/#speakers" %></li>
+          <li class="nav-link"><%= link_to "Projects", "/#projects" %></li>
+          <li class="nav-link"><%= link_to "Schedule", "/#schedule" %></li>
+          <li class="nav-link"><%= link_to "Ticktes", "/#ticktes" %></li>
+          <li class="nav-link"><%= link_to "Team", "/#team" %></li>
+          <li class="nav-link"><%= link_to "Location", "/#location" %></li>
+          <li class="nav-link"><%= link_to "Code of Conduct", "/#coc" %></li>
+          <li class="nav-link"><%= link_to "Sponsors", "/#sponsors" %></li>
+          <li class="nav-link"><%= link_to "Contact", "/#contact" %></li>
+        </ul>
+      </div>
     </div>
-    <!-- Will add this later
-    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
-    <div class="nav">
-      <ul id="js-navigation-menu" class="navigation-menu show">
-        <li class="nav-link"><a href="http://github.com/pferdefleisch/goingnative.io" target="_blank">Source</a></li>
-      </ul>
-    </div>
-    -->
   </div>
 </header>

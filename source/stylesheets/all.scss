@@ -4,9 +4,9 @@
 @import "base/base";   /* Bitters needs to be imported before Neat */
 @import "neat";
 
-@import "partials/variables";
-@import "partials/base";
-@import "partials/layout";
-@import "partials/modules";
-@import "partials/state";
-@import "partials/theme";
+@import "variables";
+@import "base";
+@import "layout";
+@import "modules";
+@import "state";
+@import "theme";
