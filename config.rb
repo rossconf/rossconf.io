@@ -49,18 +49,6 @@ end
 
 # Methods defined in the helpers block are available in templates
 helpers do
-  def social_links person
-    # woooooohoooooooo motherfucker!!!
-    content_tag(:ul, class: "social-links l_horizontal-list") {
-      %w(twitter github).map { |social|
-        content_tag(:li,
-          link_to("https://#{social}.com/#{person.send(social)}") {
-            tag(:i, class: "icon-#{social}")
-          },
-          class: "social-link") if person.send(social)
-      }.compact.join("\n")
-    }
-  end
 end
 
 set :css_dir, 'stylesheets'
