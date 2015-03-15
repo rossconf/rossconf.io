@@ -55,7 +55,7 @@ helpers do
       %w(twitter github).map { |social|
         content_tag(:li,
           link_to("https://#{social}.com/#{person.send(social)}") {
-            content_tag(:i, social.downcase, class: "icon-#{social}")
+            tag(:i, class: "icon-#{social}")
           },
           class: "social-link") if person.send(social)
       }.compact.join("\n")
