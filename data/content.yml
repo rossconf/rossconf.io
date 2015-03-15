@@ -7,3 +7,33 @@ meta:
     - OSS
     - Ruby Open Source
     - open source vienna
+
+speakers:
+  - name: Katrina Owen
+    image_url: /images/speakers/katrina.png
+    twitter: kytrinyx
+    github: kytrinyx
+    bio: Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future dreamcatcher plaid. PBR&B single-origin coffee gluten-free McSweeney's banjo, bicycle rights food truck gastropub vinyl four loko umami +1 narwhal chia.
+
+  - name: Michal Papis
+    image_url: /images/speakers/michal.png
+    twitter: mpapis
+    github: mpapis
+    bio: Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future dreamcatcher plaid. PBR&B single-origin coffee gluten-free McSweeney's banjo, bicycle rights food truck gastropub vinyl four loko umami +1 narwhal chia.
+
+  - name: Lisa Passing
+    image_url: /images/speakers/lisa.png
+    github: lislis
+    bio: Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future dreamcatcher plaid. PBR&B single-origin coffee gluten-free McSweeney's banjo, bicycle rights food truck gastropub vinyl four loko umami +1 narwhal chia.
+
+  - name: Piotr Szotkowski
+    image_url: /images/speakers/piotr.png
+    twitter: chastell
+    github: chastell
+    bio: Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future dreamcatcher plaid. PBR&B single-origin coffee gluten-free McSweeney's banjo, bicycle rights food truck gastropub vinyl four loko umami +1 narwhal chia.
+
+  - name: Arne Brasseur
+    image_url: /images/speakers/arne.png
+    twitter: plexus
+    github: plexus
+    bio: Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future dreamcatcher plaid. PBR&B single-origin coffee gluten-free McSweeney's banjo, bicycle rights food truck gastropub vinyl four loko umami +1 narwhal chia.

@@ -1,0 +1,18 @@
+<section class="speakers l_standard-container">
+  <div class="container">
+    <% data.content.speakers.each do |speaker| %>
+      <div class="l_image_cell">
+       <%= image_tag speaker.image_url, alt: speaker.name %>
+      </div>
+      <div class="l_body_cell">
+        <h3 class="subhead">
+          <%= speaker.name %>
+          <%= social_links(speaker) %>
+        </h3>
+        <div class="body">
+          <%= speaker.bio %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</section>
