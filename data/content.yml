@@ -37,3 +37,20 @@ speakers:
     twitter: plexus
     github: plexus
     bio: Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future dreamcatcher plaid. PBR&B single-origin coffee gluten-free McSweeney's banjo, bicycle rights food truck gastropub vinyl four loko umami +1 narwhal chia.
+
+projects:
+  - name: exercism
+    image_url: /images/projects/exercism_color.png
+    bio: "With [exercism](http://exercism.io/) beginner programmers practice their coding skills while more experienced developers offer their mentorship. Thousands of thoughtful discussion on code decisions take place on exercism.io."
+
+  - name: RVM
+    image_url: /images/projects/rvm_color.png
+    bio: "Ruby Version Manager ([RVM](http://rvm.io/)) is a command-line tool which allows you to easily install, manage, and work with multiple ruby environments from interpreters to sets of gems."
+
+  - name: Diaspora
+    image_url: /images/projects/diaspora.png
+    bio: "[diaspora&lowast;](https://joindiaspora.com) is the community-run, distributed social network. Since August 27th, 2012, all of diaspora*-s development has been done entirely by volunteers out in the open."
+
+  - name: TBA
+    image_url: /images/projects/blank.png
+    bio: TBA
