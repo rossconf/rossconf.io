@@ -1,0 +1,37 @@
+---
+title: rossconf
+---
+<header>
+  <%= image_tag "header-bg.jpg", class: "header-image", alt: 'Ruby Open Source Software Conference Vienna' %>
+  <div class="container">
+    <div class="header-info">
+      <%= image_tag "basic_logo.png", class: "header-logo", alt: 'ROSSConf Vienna' %>
+      <h2 class="header-title">ROSSConf Vienna</h2>
+      <h2 class="header-date">April 25, 2015 @ sektor5</h2>
+    </div>
+  </div>
+</header>
+
+<section class="intro">
+  <div class="container">
+    <h2>Vienna's First Ruby Conference</h2>
+    <p>ROSS Conf is a one day mini-conference bringing Open Source Software maintainers and developers together in one room. The projects participating in its first edition include exercism.io from Katrina Owen and RVM from Michal Papis. In the morning bit the project owners will introduce their projects and share what would need work in the afternoon hackathon-y part.</p>
+    <p>We ask for a €15 deposit which you will get back upon attendance.</p>
+    <p>Come help make free-and-amazing software April 25th.</p>
+  </div>
+</section>
+
+<%= partial "partials/speakers" %>
+<%= partial "partials/projects" %>
+<%= partial "partials/schedule" %>
+<%= partial "partials/team" %>
+<%= partial "partials/location" %>
+<%= partial "partials/coc" %>
+<%= partial "partials/tickets" %>
+<%= partial "partials/sponsors" %>
+
+<footer>
+  <div class="container">
+    <a href="https://twitter.com/ROSSVienna" target="_blank">Twitter</a> | <a href="http://www.meetup.com/vienna-rb/" target="_blank">Meetup</a>
+  </div>
+</footer>
