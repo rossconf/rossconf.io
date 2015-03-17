@@ -1,0 +1,63 @@
+.l_standard-container {
+  @include media($tablet) {
+    padding-bottom: 3rem;
+  }
+  @include media($mobile) {
+    padding-bottom: 3rem;
+  }
+}
+
+.l_horizontal-list {
+  li {
+    float: left;
+    margin-right: 2rem;
+    margin-bottom: .5rem;
+    &:last-child  { margin-right: 0; }
+  }
+}
+
+.l_cell-row {
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+
+.l_image-cell {
+  text-align: center;
+
+  padding-left: .5rem;
+  padding-right: .5rem;
+
+  @include span-columns(2);
+
+  @include media($tablet) {
+    @include span-columns(8);
+    margin-bottom: 2rem;
+  }
+
+  @include media($mobile) {
+    @include span-columns(4);
+    margin-bottom: 2rem;
+  }
+}
+
+.l_text-cell {
+
+  padding-left: .5rem;
+  padding-right: .5rem;
+
+  @include span-columns(9);
+
+  @include media($tablet) {
+    @include span-columns(12);
+    margin-bottom: 2rem;
+  }
+
+  @include media($mobile) {
+    @include span-columns(8);
+    margin-bottom: 2rem;
+  }
+}
+
+.cell-body {
+  font-size: 14px;
+}

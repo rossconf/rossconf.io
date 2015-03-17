@@ -2,7 +2,7 @@ activate :deploy do |deploy|
   deploy.method = :git
 end
 
-set :site_name, "rossconf"
+set :site_name, "ROSSConf"
 set :analytics_code, "UA-99999999-1"
 #
 ###
@@ -48,11 +48,11 @@ configure :development do
 end
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def md(source)
+    Tilt::KramdownTemplate.new { source }.render
+  end
+end
 
 set :css_dir, 'stylesheets'
 

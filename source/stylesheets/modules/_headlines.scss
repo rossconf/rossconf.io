@@ -1,0 +1,65 @@
+.headline-container {
+  $intro-text-width: 60%;
+
+  text-align: center;
+
+  .headline-text {
+    font-family: $serif;
+    font-weight: 800;
+    margin-bottom: .3em;
+
+    @include media($large-screen) {
+      font-size: 3em;
+      margin-bottom: .4em;
+    }
+  }
+
+  .headline-sub {
+    background: $base-accent-color;
+    color: white;
+    display: inline-block;
+    font-size: .7em;
+    font-weight: 800;
+    margin-bottom: 2em;
+    padding: 3px 8px;
+    text-transform: uppercase;
+
+    @include media($large-screen) {
+      margin-bottom: 3.3em;
+    }
+  }
+
+  .headline-minor {
+    color: lighten($base-font-color, 20);
+    font-size: 1.3em;
+    font-weight: 300;
+    line-height: 1.4em;
+    margin: 0 auto 1em;
+
+    @include media($large-screen) {
+      font-size: 1.7em;
+      line-height: 1.35em;
+      margin: 0 auto 1em;
+      width: $intro-text-width;
+    }
+  }
+
+  .headline-description {
+    margin: auto;
+
+    @include media($large-screen) {
+      width: $intro-text-width;
+    }
+
+    a {
+      font-size: .8em;
+      font-weight: 400;
+      text-transform: uppercase;
+
+      span {
+        font-size: 1.3em;
+        line-height: 0;
+      }
+    }
+  }
+}

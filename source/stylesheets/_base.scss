@@ -1,0 +1,34 @@
+body {
+  font-family: 'Open Sans', Helvetica, Arial;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #666;
+}
+
+section, footer {
+  overflow: hidden;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  .section-title {
+    text-align: center;
+  }
+}
+
+.container {
+  @include outer-container(960px);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', Helvetica, Arial;
+  margin-bottom: 1.5rem;
+}
+
+h1, h2 {
+  margin-bottom: 3rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}

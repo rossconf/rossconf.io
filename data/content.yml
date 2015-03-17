@@ -7,3 +7,104 @@ meta:
     - OSS
     - Ruby Open Source
     - open source vienna
+
+speakers:
+  - name: Katrina Owen
+    image_url: /images/speakers/katrina.png
+    twitter: kytrinyx
+    github: kytrinyx
+    bio: Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future dreamcatcher plaid. PBR&B single-origin coffee gluten-free McSweeney's banjo, bicycle rights food truck gastropub vinyl four loko umami +1 narwhal chia.
+
+  - name: Michal Papis
+    image_url: /images/speakers/michal.png
+    twitter: mpapis
+    github: mpapis
+    bio: Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future dreamcatcher plaid. PBR&B single-origin coffee gluten-free McSweeney's banjo, bicycle rights food truck gastropub vinyl four loko umami +1 narwhal chia.
+
+  - name: Lisa Passing
+    image_url: /images/speakers/lisa.png
+    github: lislis
+    bio: Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future dreamcatcher plaid. PBR&B single-origin coffee gluten-free McSweeney's banjo, bicycle rights food truck gastropub vinyl four loko umami +1 narwhal chia.
+
+  - name: Piotr Szotkowski
+    image_url: /images/speakers/piotr.png
+    twitter: chastell
+    github: chastell
+    bio: Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future dreamcatcher plaid. PBR&B single-origin coffee gluten-free McSweeney's banjo, bicycle rights food truck gastropub vinyl four loko umami +1 narwhal chia.
+
+  - name: Arne Brasseur
+    image_url: /images/speakers/arne.png
+    twitter: plexus
+    github: plexus
+    bio: Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future dreamcatcher plaid. PBR&B single-origin coffee gluten-free McSweeney's banjo, bicycle rights food truck gastropub vinyl four loko umami +1 narwhal chia.
+
+projects:
+  - name: exercism
+    image_url: /images/projects/exercism_color.png
+    bio: "With [exercism](http://exercism.io/) beginner programmers practice their coding skills while more experienced developers offer their mentorship. Thousands of thoughtful discussion on code decisions take place on exercism.io."
+
+  - name: RVM
+    image_url: /images/projects/rvm_color.png
+    bio: "Ruby Version Manager ([RVM](http://rvm.io/)) is a command-line tool which allows you to easily install, manage, and work with multiple ruby environments from interpreters to sets of gems."
+
+  - name: Diaspora
+    image_url: /images/projects/diaspora.png
+    bio: "[diaspora&lowast;](https://joindiaspora.com) is the community-run, distributed social network. Since August 27th, 2012, all of diaspora*-s development has been done entirely by volunteers out in the open."
+
+  - name: TBA
+    image_url: /images/projects/blank.png
+    bio: TBA
+
+
+# SCHEDULE
+schedule:
+  "10:00 - 11:00": Registration
+  "11:00 - 11:10": Kick-off
+  "11:10 - 11:30": Piotr Szotkowski
+  "11:40 - 12:00": Michal Papis
+  "12:10 - 12:30": Lisa Passing
+  "12:40 - 13:40": Lunch
+  "13:40 - 14:00": Katrina Owen
+  "14:00 - 14:20": Katrina Owen
+  "14:20 - 19:00": Hackathon
+  "19:00": Wrap up, pizza and networking
+
+team:
+  - name: Floor Drees
+    image_url: /images/team/floor.png
+    twitter: FloorDrees
+    github: floord
+
+  - name: Aaron Cruz
+    image_url: http://www.wirsing.io/images/portraits/portrait-aaron-3693a95c.jpg
+    twitter: mraaroncruz
+    github: pferdefleisch
+
+  - name: Sebastian Graessl
+    image_url: https://pbs.twimg.com/profile_images/502718840606699521/LZv4lZDI.jpeg
+    twitter: bastilian
+    github: bastilian
+
+  - name: Kurt Lojka
+    image_url: /images/team/kurt.png
+    twitter: kurtfresh
+
+  - name: Laura Gaetano<br>
+    image_url: /images/team/laura.png
+    twitter: alicetragedy
+    github: alicetragedy
+
+  - name: Pilar Huidobro
+    image_url: images/team/pilar.png
+    twitter: Althaire
+    github: Althaire
+
+  - name: Ramon Huidobro
+    image_url: http://photos4.meetupstatic.com/photos/member/5/9/d/0/highres_231262992.jpeg
+    twitter: senorhuidobro
+    github: ramonh
+
+  - name: Shelly Coen
+    image_url: https://pbs.twimg.com/profile_images/530748120905154560/jLx4Inz3.jpeg
+    twitter: shellycoen
+    github: shellycoen
