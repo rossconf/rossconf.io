@@ -1,6 +1,25 @@
-/* background colors taken from logo */
-$logocolors: #EEA086, #FFFFFF, #CDCECA, #B0D9C6, #DE4C3E
+section, footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 
-/* corresponding contrasty text colors */
-/* $bodytextcolors: */
-/* $headlinecolors: */
+  .section-title {
+    text-align: center;
+  }
+}
+
+.container {
+  @include outer-container(960px);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', Helvetica, Arial;
+  margin-bottom: 1.5rem;
+}
+
+h1, h2 {
+  margin-bottom: 3rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}

@@ -6,10 +6,10 @@ body {
   color: #666;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Raleway', Helvetica, Arial;
-}
+/* background colors taken from logo */
+$logocolors: #EEA086, #FFFFFF, #CDCECA, #B0D9C6, #DE4C3E
 
-h1, h2 {
-  margin-bottom: 3rem;
-}
+/* corresponding contrasty text colors */
+/* $bodytextcolors: */
+/* $headlinecolors: */
+
