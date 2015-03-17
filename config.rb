@@ -3,7 +3,7 @@ activate :deploy do |deploy|
 end
 
 set :site_name, "ROSSConf"
-set :analytics_code, "UA-99999999-1"
+set :analytics_code, "UA-60869001-1"
 #
 ###
 # Compass
