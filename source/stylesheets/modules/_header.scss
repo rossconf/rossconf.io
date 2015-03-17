@@ -6,6 +6,11 @@ header {
   overflow: hidden;
 }
 
+.header-image {
+  display: block;
+  margin: auto;
+}
+
 .header-logo {
   width: 430px;
   margin-bottom: $header-margin;
