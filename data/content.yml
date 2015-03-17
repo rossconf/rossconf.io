@@ -32,7 +32,7 @@ speakers:
     image_url: /images/speakers/piotr.png
     twitter: chastell
     github: chastell
-    bio: "Piotr is a hacker scientist: an assistant professor at Warsaw University of Technology, a Ruby developer at Rebased and a founding member of the Warsaw Hackerspace."
+    bio: "Piotr is a hacker scientist: an assistant professor at Warsaw University of Technology, a Ruby developer at Rebased and a founding member of the Warsaw Hackerspace. When not coding (or talking about coding) he’s a programme coordinator and a coach at Rails Girls Warsaw and organises Warsaw Ruby Users Group."
 
   - name: Arne Brasseur
     image_url: /images/speakers/arne.png
