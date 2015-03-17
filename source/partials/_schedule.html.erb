@@ -1,14 +1,15 @@
-<div id="schedule">
-  <h3>Schedule</h3>
-  10:00 - 11:00 Registration<br>
-  11:00 - 11:10 Kick-off<br>
-  11:10 - 11:30 Piotr Szotkowski<br>
-  11:40 - 12:00 Michal Papis<br>
-  12:10 - 12:30 Lisa Passing<br>
-  12:40 - 13:40 Lunch<br>
-  13:40 - 14:00 Katrina Owen<br>
-  14:00 - 14:20 Katrina Owen<br>
-  14:20 - 19:00 Hackathon<br>
-  19:00 Wrap up, pizza and networking
-</div>
-
+<section class="schedule">
+  <div class="container">
+    <h2>Schedule</h2>
+    <table class="tables">
+      <tbody>
+        <% data.content.schedule.each do |time, activity| %>
+          <tr>
+            <td><%= time %></td>
+            <td><%= activity %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+</section>

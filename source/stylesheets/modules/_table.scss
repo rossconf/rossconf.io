@@ -1,0 +1,93 @@
+.tables {
+  width: 100%;
+  margin-bottom: $default-margin-bottom;
+  border-collapse: separate;
+  border-left: 0px;
+  border-radius: 3px;
+  border-spacing: 0;
+  border: 1px solid gainsboro; }
+  /* line 17, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_tables.scss */
+  .tables th {
+    text-align: left; }
+  /* line 37, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_tables.scss */
+  .tables tbody {
+    background-color: #fbfbfb; }
+    /* line 40, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_tables.scss */
+    .tables tbody tr:hover > td, .tables tbody tr:hover > th {
+      background-color: #eeeeee; }
+    /* line 43, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_tables.scss */
+    .tables tbody tr:nth-child(even) {
+      background-color: #f6f6f6; }
+      /* line 45, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_tables.scss */
+      .tables tbody tr:nth-child(even):hover > td {
+        background-color: #e9e9e9; }
+  /* line 52, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_tables.scss */
+  .tables thead:first-of-type tr:first-child > th:first-child {
+    border-top-left-radius: 3px; }
+  /* line 56, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_tables.scss */
+  .tables thead:first-of-type tr:first-child > th:last-child {
+    border-top-right-radius: 3px; }
+  /* line 62, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_tables.scss */
+  .tables tbody:last-child tr:last-child > td:first-child {
+    border-bottom-left-radius: 3px; }
+  /* line 66, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_tables.scss */
+  .tables tbody:last-child tr:last-child > td:last-child {
+    border-bottom-right-radius: 3px; }
+  /* line 72, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_tables.scss */
+  .tables thead th {
+    background-color: white;
+    border-bottom: 0px;
+    border-left: 1px solid gainsboro;
+    padding: 0.75em 1em; }
+    /* line 78, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_tables.scss */
+    .tables thead th:first-child {
+      border-left: none; }
+  /* line 84, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_tables.scss */
+  .tables tbody {
+    background-color: #fbfbfb; }
+    /* line 87, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_tables.scss */
+    .tables tbody td {
+      border-bottom: 0px;
+      border-left: 1px solid gainsboro;
+      border-top: 1px solid gainsboro;
+      padding: 0.75em 1em; }
+      /* line 93, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_tables.scss */
+      .tables tbody td:first-child {
+        border-left: none; }
+      /* line 97, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_tables.scss */
+      .tables tbody td button {
+        background-color: #477DCA;
+        border-radius: 3px;
+        border: none;
+        color: white;
+        display: inline-block;
+        font-size: inherit;
+        font-weight: bold;
+        padding: 7px 18px;
+        text-decoration: none;
+        background-clip: padding-box;
+        display: inline-block;
+        font-size: 0.7em;
+        line-height: 1.5em;
+        margin-bottom: 0.3em;
+        margin-right: 0.5em;
+        outline: none;
+        padding: 0.3em 1em;
+        width: 100%; }
+        /* line 351, /Users/Magnus/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/bourbon-4.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss */
+        .tables tbody td button:hover:not(:disabled) {
+          background-color: #578ad4;
+          cursor: pointer; }
+        /* line 362, /Users/Magnus/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/bourbon-4.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss */
+        .tables tbody td button:active:not(:disabled), .tables tbody td button:focus:not(:disabled) {
+          background-color: #3c71bb;
+          cursor: pointer; }
+        /* line 59, /Users/Magnus/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/bourbon-4.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss */
+        .tables tbody td button:disabled {
+          opacity: 0.5;
+          cursor: not-allowed; }
+        @media screen and (min-width: 40em) {
+          /* line 97, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_tables.scss */
+          .tables tbody td button {
+            margin-bottom: 0;
+            width: auto; } }

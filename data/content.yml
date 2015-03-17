@@ -54,3 +54,17 @@ projects:
   - name: TBA
     image_url: /images/projects/blank.png
     bio: TBA
+
+
+# SCHEDULE
+schedule:
+  "10:00 - 11:00": Registration
+  "11:00 - 11:10": Kick-off
+  "11:10 - 11:30": Piotr Szotkowski
+  "11:40 - 12:00": Michal Papis
+  "12:10 - 12:30": Lisa Passing
+  "12:40 - 13:40": Lunch
+  "13:40 - 14:00": Katrina Owen
+  "14:00 - 14:20": Katrina Owen
+  "14:20 - 19:00": Hackathon
+  "19:00": Wrap up, pizza and networking
