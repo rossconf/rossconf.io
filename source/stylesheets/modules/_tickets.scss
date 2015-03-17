@@ -1,0 +1,10 @@
+.tickets {
+  /* make tickets not vertical scroll */
+  iframe {
+    height: 265px;
+  }
+
+  .eventbrite-branding {
+    margin-top: -2rem;
+  }
+}
