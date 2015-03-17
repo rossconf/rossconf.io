@@ -7,17 +7,32 @@ body {
 }
 
 /* background colors taken from logo */
-$logocolors: #EEA086 #FFFFFF #CDCECA #B0D9C6 #DE4C3E;
+$logocolors:     #DE4C3E #B0D9C6 #EEA086 #FFFFFF #CDCECA;
+$headlinecolors: #FFFFFF #FFFFFF #FFFFFF #666666 #FFFFFF;
+$subheadscolors: #333333 #FFFFFF #FFFFFF #666666 #FFFFFF;
+$bodytextcolors: #FFFFFF #333333 #FFFFFF #666666 #333333;
 
+/* Loop through colors and assign them to the sections */
 $length: length($logocolors);
 @for $i from 1 through $length {
   $color: nth($logocolors, $i);
   section:nth-child(#{$length}n+#{$i}) {
     background-color: $color;
+
+    h2 {
+      color: nth($headlinecolors, $i);
+    }
+
+    h3 {
+      color: nth($subheadscolors, $i);
+    }
+
+    p {
+      color: nth($bodytextcolors, $i);
+    }
   }
 }
 
 /* corresponding contrasty text colors */
 /* $bodytextcolors: */
-/* $headlinecolors: */
 
