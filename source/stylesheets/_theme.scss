@@ -1,19 +1,16 @@
-body {
-  font-family: 'Open Sans', Helvetica, Arial;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 21px;
-  color: #666;
+img.image-round {
+  border-radius: 50%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
 }
 
-/* background colors taken from logo */
-/*               red     blue    salmon  white   gray    */
-$logocolors:     #DE4C3E #B0D9C6 #EEA086 #FFFFFF #CDCECA;
-$headlinecolors: #FFFFFF #FFFFFF #FFFFFF #666666 #FFFFFF;
-$subheadscolors: #333333 #FFFFFF #FFFFFF #666666 #FFFFFF;
-$bodytextcolors: #FFFFFF #333333 #FFFFFF #666666 #333333;
+// background colors from Theme Colors
+$logocolors:     $red         $blue        $salmon $white     $theme-gray;
+$headlinecolors: $white       $white       $white  $dark-gray $white;
+$subheadscolors: $darker-gray $white       $white  $dark-gray $white;
+$bodytextcolors: $white       $darker-gray $white  $dark-gray $darker-gray;
 
-/* Loop through colors and assign them to the sections */
+// Loop through colors and assign them to the sections
 $length: length($logocolors);
 @for $i from 1 through $length {
   $color: nth($logocolors, $i);

@@ -2,7 +2,7 @@ activate :deploy do |deploy|
   deploy.method = :git
 end
 
-set :site_name, "rossconf"
+set :site_name, "ROSSConf"
 set :analytics_code, "UA-99999999-1"
 #
 ###

@@ -6,11 +6,20 @@ $light: #ECE5CE;
 $light-text: #FFF;
 $dark-text: #666;
 
+// Theme Colors
+$red: #DE4C3E;
+$blue: #B0D9C6;
+$salmon: #EEA086;
+$white: #FFFFFF;
+$theme-gray: #CDCECA;
+$darker-gray: #333333;
+$dark-gray: #666666;
+
 $default-margin-bottom: 3rem;
 
-$navigation-background: $dark;
-$navigation-color: $light-text;
-$navigation-color-hover: $medium-dark;
+$navigation-background: $white;
+$navigation-color: $darker-gray;
+$navigation-color-hover: $theme-gray;
 
 $headline-section: $medium-light;
 $headline-text: $dark-text;

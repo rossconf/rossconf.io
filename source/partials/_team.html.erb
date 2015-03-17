@@ -4,7 +4,7 @@
     <% data.content.team.each do |person| %>
       <div class="l_cell-row">
         <div class="l_image-cell">
-         <%= image_tag person.image_url, alt: person.name %>
+         <%= image_tag person.image_url, class: "image-round", alt: person.name %>
         </div>
         <div class="l_text-cell">
           <h3 class="subhead">

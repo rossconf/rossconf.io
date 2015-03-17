@@ -76,12 +76,12 @@ team:
     github: floord
 
   - name: Aaron Cruz
-    image_url: /images/team/aaron.png
+    image_url: http://www.wirsing.io/images/portraits/portrait-aaron-3693a95c.jpg
     twitter: mraaroncruz
     github: pferdefleisch
 
   - name: Sebastian Graessl
-    image_url: /images/team/sebastian.png
+    image_url: https://pbs.twimg.com/profile_images/502718840606699521/LZv4lZDI.jpeg
     twitter: bastilian
     github: bastilian
 
@@ -100,11 +100,11 @@ team:
     github: Althaire
 
   - name: Ramon Huidobro
-    image_url: /images/team/ramon.png
+    image_url: http://photos4.meetupstatic.com/photos/member/5/9/d/0/highres_231262992.jpeg
     twitter: senorhuidobro
     github: ramonh
 
   - name: Shelly Coen
-    image_url: /images/team/shelly.png
+    image_url: https://pbs.twimg.com/profile_images/530748120905154560/jLx4Inz3.jpeg
     twitter: shellycoen
     github: shellycoen

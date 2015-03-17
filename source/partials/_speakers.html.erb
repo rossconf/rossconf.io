@@ -4,7 +4,7 @@
     <% data.content.speakers.each do |speaker| %>
       <div class="l_cell-row">
         <div class="l_image-cell">
-         <%= image_tag speaker.image_url, alt: speaker.name %>
+           <%= image_tag speaker.image_url, class: "image-round", alt: speaker.name %>
         </div>
         <div class="l_text-cell">
           <h3 class="subhead">
