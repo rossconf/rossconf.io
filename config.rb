@@ -49,6 +49,9 @@ end
 
 # Methods defined in the helpers block are available in templates
 helpers do
+  def md(source)
+    Tilt::KramdownTemplate.new { source }.render
+  end
 end
 
 set :css_dir, 'stylesheets'
