@@ -54,9 +54,9 @@ projects:
     image_url: /images/projects/diaspora.png
     bio: "[diaspora&lowast;](https://joindiaspora.com) is the community-run, distributed social network. The software is Rails based and was created in 2010 and is community governed since 2012. Today diaspora is one of the biggest alternatives to centralized social networks with an active and vibrant community."
 
-  - name: TBA
+  - name: reek
     image_url: /images/projects/blank.png
-    bio: TBA
+    bio: "[reek](https://github.com/troessner/reek) examines Ruby classes, modules and methods and reports their [code smells](https://github.com/troessner/reek/wiki/Code-Smells) such as control coupling, data clumping, feature envy, utility functions and simulated polymorphism. It might not always be right, but it will make you think about your design decisions and might just make you a better OOP programmer."
 
   - name: Yaks
     image_url: /images/projects/yaks.png
