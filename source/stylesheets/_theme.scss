@@ -7,7 +7,15 @@ body {
 }
 
 /* background colors taken from logo */
-$logocolors: #EEA086, #FFFFFF, #CDCECA, #B0D9C6, #DE4C3E
+$logocolors: #EEA086 #FFFFFF #CDCECA #B0D9C6 #DE4C3E;
+
+$length: length($logocolors);
+@for $i from 1 through $length {
+  $color: nth($logocolors, $i);
+  section:nth-child(#{$length}n+#{$i}) {
+    background-color: $color;
+  }
+}
 
 /* corresponding contrasty text colors */
 /* $bodytextcolors: */
