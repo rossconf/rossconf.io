@@ -1,31 +1,29 @@
 <section class="speakers" id="speakers">
-  <div class="container">
-    <h2>Speakers</h2>
-    <% data.content.speakers.each do |speaker| %>
-      <div class="l_cell-row">
-        <div class="l_image-cell">
-         <%= image_tag speaker.image_url, alt: speaker.name %>
-        </div>
-        <div class="l_text-cell">
-          <h3 class="subhead">
-            <%= speaker.name %>
-          </h3>
-          <ul class="social-links l_horizontal-list">
-            <% %w(twitter github).each do |social|  %>
-              <% if speaker.send(social) %>
-                <li class="social-link">
-                  <% link_to "https://#{social}.com/#{speaker.send(social)}" do %>
-                    <i class="icon-<%= social %>"></i>
-                  <% end %>
-                </li>
-              <% end %>
+  <h2>Speakers</h2>
+  <% data.content.speakers.each do |speaker| %>
+    <div class="l_cell-row">
+      <div class="l_image-cell">
+       <%= image_tag speaker.image_url, alt: speaker.name %>
+      </div>
+      <div class="l_text-cell">
+        <h3 class="subhead">
+          <%= speaker.name %>
+        </h3>
+        <ul class="social-links l_horizontal-list">
+          <% %w(twitter github).each do |social|  %>
+            <% if speaker.send(social) %>
+              <li class="social-link">
+                <% link_to "https://#{social}.com/#{speaker.send(social)}" do %>
+                  <i class="icon-<%= social %>"></i>
+                <% end %>
+              </li>
             <% end %>
-          </ul>
-          <div class="body">
-            <%= md(speaker.bio) %>
-          </div>
+          <% end %>
+        </ul>
+        <div class="body">
+          <%= md(speaker.bio) %>
         </div>
       </div>
-    <% end %>
-  </div>
+    </div>
+  <% end %>
 </section>

@@ -1,15 +1,13 @@
 <section class="schedule" id="schedule">
-  <div class="container">
-    <h2>Schedule</h2>
-    <table class="tables">
-      <tbody>
-        <% data.content.schedule.each do |time, activity| %>
-          <tr>
-            <td><%= time %></td>
-            <td><%= activity %></td>
-          </tr>
-        <% end %>
-      </tbody>
-    </table>
-  </div>
+  <h2>Schedule</h2>
+  <table class="tables">
+    <tbody>
+      <% data.content.schedule.each do |time, activity| %>
+        <tr>
+          <td><%= time %></td>
+          <td><%= activity %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
 </section>
