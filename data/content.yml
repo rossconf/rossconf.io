@@ -13,30 +13,30 @@ speakers:
     image_url: /images/speakers/katrina.png
     twitter: kytrinyx
     github: kytrinyx
-    bio: Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future dreamcatcher plaid. PBR&B single-origin coffee gluten-free McSweeney's banjo, bicycle rights food truck gastropub vinyl four loko umami +1 narwhal chia.
+    bio: Katrina accidentally became a developer while pursuing a degree in molecular biology. When programming, her focus is on automation, workflow optimization, and refactoring. She works primarily in Go and Ruby, contributes to several open source projects, and is the creator of exercism.io.
 
   - name: Michal Papis
     image_url: /images/speakers/michal.png
     twitter: mpapis
     github: mpapis
-    bio: Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future dreamcatcher plaid. PBR&B single-origin coffee gluten-free McSweeney's banjo, bicycle rights food truck gastropub vinyl four loko umami +1 narwhal chia.
+    bio: Michal is an open source developer, mainly coding in Ruby and Shell. He loves to help others - to the extent it become his life mission to "make the world a better place". For last 4 years he maintained Ruby Version Manager, but as of last month he focuses solely on finishing RVM v2
 
   - name: Lisa Passing
     image_url: /images/speakers/lisa.png
     github: lislis
-    bio: Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future dreamcatcher plaid. PBR&B single-origin coffee gluten-free McSweeney's banjo, bicycle rights food truck gastropub vinyl four loko umami +1 narwhal chia.
+    bio: Lisa Passing is working as a frontend developer at Travis CI. She's been heavily stalking diaspora* since 2011, organizing monthly user gatherings in Berlin and making merchandise for the community.
 
   - name: Piotr Szotkowski
     image_url: /images/speakers/piotr.png
     twitter: chastell
     github: chastell
-    bio: Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future dreamcatcher plaid. PBR&B single-origin coffee gluten-free McSweeney's banjo, bicycle rights food truck gastropub vinyl four loko umami +1 narwhal chia.
+    bio: Piotr is a hacker scientist: an assistant professor at Warsaw University of Technology, a Ruby developer at Rebased and a founding member of the Warsaw Hackerspace.
 
   - name: Arne Brasseur
     image_url: /images/speakers/arne.png
     twitter: plexus
     github: plexus
-    bio: Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future dreamcatcher plaid. PBR&B single-origin coffee gluten-free McSweeney's banjo, bicycle rights food truck gastropub vinyl four loko umami +1 narwhal chia.
+    bio: Arne is a developer, public speaker, programming coach, author and open-source contributor. With a passion for both human and programming languages, he has spent the last decade teaching and exploring the finer points of Ruby, LISP, Haskell, Mandarin Chinese, and others. When not hopping conferences or Pacific islands, he can be found at his home base in Berlin, brewing fine teas while pondering the future of open-source and the web.
 
 projects:
   - name: exercism
@@ -55,6 +55,10 @@ projects:
     image_url: /images/projects/blank.png
     bio: TBA
 
+  - name: Yaks
+    image_url: /images/projects/yaks.png
+    bio: "[Yaks](https://github.com/plexus/yaks) takes your data and transforms it into hypermedia formats such as HAL, JSON-API, or HTML. It allows you to build APIs that are discoverable and browsable. It is built from the ground up around linked resources, a concept central to the architecture of the web."
+
 
 # SCHEDULE
 schedule:
@@ -65,7 +69,7 @@ schedule:
   "12:10 - 12:30": Lisa Passing
   "12:40 - 13:40": Lunch
   "13:40 - 14:00": Katrina Owen
-  "14:00 - 14:20": Katrina Owen
+  "14:00 - 14:20": Arne Brasseur
   "14:20 - 19:00": Hackathon
   "19:00": Wrap up, pizza and networking
 
