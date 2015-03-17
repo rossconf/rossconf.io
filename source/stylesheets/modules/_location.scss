@@ -1,0 +1,7 @@
+.location-map {
+  @include span-columns(9);
+}
+
+.location-info {
+  @include span-columns(3);
+}
