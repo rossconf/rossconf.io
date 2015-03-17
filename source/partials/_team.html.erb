@@ -1,0 +1,30 @@
+<section class="team l_standard-container">
+  <div class="container">
+    <h2>Team</h2>
+    <% data.content.team.each do |person| %>
+      <div class="l_cell-row">
+        <div class="l_image-cell">
+         <%= image_tag person.image_url, alt: person.name %>
+        </div>
+        <div class="l_text-cell">
+          <h3 class="subhead">
+            <%= person.name %>
+          </h3>
+          <ul class="social-links l_horizontal-list">
+            <% %w(twitter github).each do |social|  %>
+              <% if person.send(social) %>
+                <li class="social-link">
+                  <% link_to "https://#{social}.com/#{person.send(social)}" do %>
+                    <i class="icon-<%= social %>"></i>
+                  <% end %>
+                </li>
+              <% end %>
+            <% end %>
+          </ul>
+          <div class="body">
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</section>

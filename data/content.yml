@@ -68,3 +68,43 @@ schedule:
   "14:00 - 14:20": Katrina Owen
   "14:20 - 19:00": Hackathon
   "19:00": Wrap up, pizza and networking
+
+team:
+  - name: Floor Drees
+    image_url: /images/team/floor.png
+    twitter: FloorDrees
+    github: floord
+
+  - name: Aaron Cruz
+    image_url: /images/team/aaron.png
+    twitter: mraaroncruz
+    github: pferdefleisch
+
+  - name: Sebastian Graessl
+    image_url: /images/team/sebastian.png
+    twitter: bastilian
+    github: bastilian
+
+  - name: Kurt Lojka
+    image_url: /images/team/kurt.png
+    twitter: kurtfresh
+
+  - name: Laura Gaetano<br>
+    image_url: /images/team/laura.png
+    twitter: alicetragedy
+    github: alicetragedy
+
+  - name: Pilar Huidobro
+    image_url: images/team/pilar.png
+    twitter: Althaire
+    github: Althaire
+
+  - name: Ramon Huidobro
+    image_url: /images/team/ramon.png
+    twitter: senorhuidobro
+    github: ramonh
+
+  - name: Shelly Coen
+    image_url: /images/team/shelly.png
+    twitter: shellycoen
+    github: shellycoen
