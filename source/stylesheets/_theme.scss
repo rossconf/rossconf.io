@@ -6,6 +6,7 @@ img.image-round {
 
 .button {
   font-size: 1.2em;
+  color: white !important;
   @include media($mobile) {
     width: 100%;
     text-align: center;
@@ -22,20 +23,21 @@ $logocolors:      $salmon      $blue        $white;
 $headlinecolors:  $white       $white       $dark-gray;
 $subheadscolors:  $white       $white       $dark-gray;
 $bodytextcolors:  $white       $darker-gray $dark-gray;
-$linkcolors:      $darker-gray $white       $red;
+$linkcolors:      $darker-gray $white       $darker-gray;
 
 // Loop through colors and assign them to the sections
 $length: length($logocolors);
 @for $i from 1 through $length {
   $color: nth($logocolors, $i);
-  section:nth-child(#{$length}n+#{$i}) {
+  section:nth-child(#{$length}n+#{$i}),
+  footer:nth-child(#{$length}n+#{$i}) {
     background-color: $color;
 
     h2 {
       color: nth($headlinecolors, $i);
     }
 
-    h3 {
+    h3, h4, h5, h6 {
       color: nth($subheadscolors, $i);
     }
 
