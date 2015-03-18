@@ -1,0 +1,46 @@
+.team {
+  .l_cell {
+    @include span-columns(3.9);
+
+    @include media($tablet) {
+      @include span-columns(3.7);
+    }
+
+    @include media($mobile) {
+      @include span-columns(4);
+    }
+  }
+
+  .l_image-cell {
+    @include span-columns(12);
+    @include media($tablet) {
+      @include span-columns(8);
+    }
+
+    @include media($mobile) {
+      @include span-columns(4);
+    }
+
+    img {
+      width: 60%;
+      margin: 0 auto;
+    }
+  }
+
+  .l_text-cell {
+    text-align: center;
+    @include span-columns(12);
+    @include media($tablet) {
+      @include span-columns(8);
+    }
+
+    @include media($mobile) {
+      @include span-columns(4);
+    }
+
+    .social-link {
+      float: none;
+    }
+    text-align: center;
+  }
+}
