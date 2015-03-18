@@ -18,11 +18,11 @@ img.image-round {
 }
 
 // background colors from Theme Colors
-$logocolors:     $red         $blue        $salmon      $white     $theme-gray;
-$headlinecolors: $white       $white       $white       $dark-gray $white;
-$subheadscolors: $darker-gray $white       $white       $dark-gray $white;
-$bodytextcolors: $white       $darker-gray $white       $dark-gray $darker-gray;
-$linkcolors:     $darker-gray $white       $darker-gray $red       $white;
+$logocolors:      $salmon      $blue        $white;
+$headlinecolors:  $white       $white       $dark-gray;
+$subheadscolors:  $white       $white       $dark-gray;
+$bodytextcolors:  $white       $darker-gray $dark-gray;
+$linkcolors:      $darker-gray $white       $red;
 
 // Loop through colors and assign them to the sections
 $length: length($logocolors);
