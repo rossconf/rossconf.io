@@ -15,8 +15,6 @@ img.image-round {
     width: 100%;
     text-align: center;
   }
-
-
 }
 
 // background colors from Theme Colors
@@ -50,3 +48,12 @@ $length: length($logocolors);
     }
   }
 }
+
+section {
+  .social-link {
+    a {
+      color: $darker-gray;
+    }
+  }
+}
+

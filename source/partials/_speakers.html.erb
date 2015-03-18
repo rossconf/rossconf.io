@@ -9,18 +9,16 @@
         <div class="l_text-cell">
           <h3 class="subhead">
             <%= speaker.name %>
-          </h3>
-          <ul class="social-links l_horizontal-list">
             <% %w(twitter github).each do |social|  %>
               <% if speaker.send(social) %>
-                <li class="social-link">
+                <span class="social-link">
                   <% link_to "https://#{social}.com/#{speaker.send(social)}" do %>
                     <i class="icon-<%= social %>"></i>
                   <% end %>
-                </li>
+                </span>
               <% end %>
             <% end %>
-          </ul>
+          </h3>
           <div class="body">
             <%= md(speaker.bio) %>
           </div>
