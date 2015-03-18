@@ -48,12 +48,12 @@
   @include span-columns(9);
 
   @include media($tablet) {
-    @include span-columns(12);
+    @include span-columns(8);
     margin-bottom: 2rem;
   }
 
   @include media($mobile) {
-    @include span-columns(8);
+    @include span-columns(4);
     margin-bottom: 2rem;
   }
 }
