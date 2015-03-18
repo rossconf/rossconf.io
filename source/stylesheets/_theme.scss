@@ -4,11 +4,27 @@ img.image-round {
   -webkit-filter: grayscale(100%);
 }
 
+.button {
+  font-size: 1.2em;
+  @include media($mobile) {
+    width: 100%;
+    text-align: center;
+  }
+
+  @include media($tablet) {
+    width: 100%;
+    text-align: center;
+  }
+
+
+}
+
 // background colors from Theme Colors
-$logocolors:     $red         $blue        $salmon $white     $theme-gray;
-$headlinecolors: $white       $white       $white  $dark-gray $white;
-$subheadscolors: $darker-gray $white       $white  $dark-gray $white;
-$bodytextcolors: $white       $darker-gray $white  $dark-gray $darker-gray;
+$logocolors:     $red         $blue        $salmon      $white     $theme-gray;
+$headlinecolors: $white       $white       $white       $dark-gray $white;
+$subheadscolors: $darker-gray $white       $white       $dark-gray $white;
+$bodytextcolors: $white       $darker-gray $white       $dark-gray $darker-gray;
+$linkcolors:     $darker-gray $white       $darker-gray $red       $white;
 
 // Loop through colors and assign them to the sections
 $length: length($logocolors);
@@ -27,6 +43,10 @@ $length: length($logocolors);
 
     p {
       color: nth($bodytextcolors, $i);
+    }
+
+    a {
+      color: nth($linkcolors, $i);
     }
   }
 }
