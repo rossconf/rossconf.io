@@ -1,0 +1,12 @@
+.sponsor {
+  @include span-columns(6);
+  height: 200px;
+  .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+  img {
+    vertical-align: middle;
+  }
+}
