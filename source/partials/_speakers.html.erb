@@ -7,18 +7,22 @@
            <%= image_tag speaker.image_url, class: "image-round", alt: speaker.name %>
         </div>
         <div class="l_text-cell">
-          <h3 class="subhead">
-            <%= speaker.name %>
-            <% %w(twitter github).each do |social|  %>
-              <% if speaker.send(social) %>
-                <span class="social-link">
-                  <% link_to "https://#{social}.com/#{speaker.send(social)}" do %>
-                    <i class="icon-<%= social %>"></i>
-                  <% end %>
-                </span>
+          <div class="speaker-subhead">
+            <h3 class="subhead">
+              <%= speaker.name %>
+            </h3>
+            <div class="speaker-social">
+              <% %w(twitter github).each do |social|  %>
+                <% if speaker.send(social) %>
+                  <span class="social-link">
+                    <% link_to "https://#{social}.com/#{speaker.send(social)}" do %>
+                      <i class="icon-<%= social %>"></i>
+                    <% end %>
+                  </span>
+                <% end %>
               <% end %>
-            <% end %>
-          </h3>
+            </div>
+          </div>
           <div class="body">
             <%= md(speaker.bio) %>
           </div>

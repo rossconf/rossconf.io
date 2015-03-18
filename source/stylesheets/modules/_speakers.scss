@@ -1,0 +1,29 @@
+.speakers {
+  p {
+    @include media($mobile) {
+      text-align: center;
+    }
+  }
+}
+.speaker-subhead {
+  overflow: hidden;
+
+  .subhead {
+    float: left;
+    @include media($mobile) {
+      margin-bottom: 1rem;
+      float: none;
+      text-align: center;
+    }
+  }
+
+  .speaker-social {
+    float: right;
+    @include media($mobile) {
+      float: none;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+  }
+
+}
