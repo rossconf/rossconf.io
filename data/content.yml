@@ -51,7 +51,7 @@ projects:
     bio: "[RVM](http://rvm.io/) was the first version manager for installing Ruby, to solve problems like switching Ruby versions or separating project gems. Today RVM is still leading in the area of installing and switching Ruby, yet Papis is working on a version 2.0."
 
   - name: Diaspora
-    image_url: /images/projects/diaspora.png
+    image_url: /images/projects/Diaspora_large_new.png
     bio: "[diaspora&lowast;](https://joindiaspora.com) is the community-run, distributed social network. The software is Rails based and was created in 2010 and is community governed since 2012. Today diaspora is one of the biggest alternatives to centralized social networks with an active and vibrant community."
 
   - name: reek
