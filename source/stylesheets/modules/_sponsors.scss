@@ -1,3 +1,7 @@
 .sponsor {
-  @include span-columns(6);
+  @include span-columns(2.8);
+  min-height: 200px;
+  img {
+    width: 150px;
+  }
 }
