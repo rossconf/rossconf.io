@@ -38,7 +38,7 @@ speakers:
     image_url: /images/speakers/arne.png
     twitter: plexus
     github: plexus
-    bio: "Arne is a developer, public speaker, programming coach, author and open-source contributor. With a passion for both human and programming languages, he has spent the last decade teaching and exploring the finer points of Ruby, LISP, Haskell, Mandarin Chinese, and others. When not hopping conferences or Pacific islands, he can be found at his home base in Berlin, brewing fine teas while pondering the future of open-source and the web."
+    bio: "Arne is a developer and programming coach living in Berlin. Through his open source work and community activities he tries to empower others and improve the state of the art. The past two years he has built a hypermedia API for Ticketsolve. Out of this work grew Yaks."
 
 ###################### PROJECTS ##########################
 projects:
