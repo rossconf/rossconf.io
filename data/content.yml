@@ -89,7 +89,7 @@ team:
     github: pferdefleisch
 
   - name: Sebastian Gräßl
-    image_url: https://pbs.twimg.com/profile_images/502718840606699521/LZv4lZDI.jpeg
+    image_url: /images/team/sebastian.jpg
     twitter: bastilian
     github: bastilian
 
@@ -108,11 +108,11 @@ team:
     github: Althaire
 
   - name: Ramon Huidobro
-    image_url: http://photos4.meetupstatic.com/photos/member/5/9/d/0/highres_231262992.jpeg
+    image_url: images/team/ramon.jpg
     twitter: senorhuidobro
     github: ramonh
 
   - name: Shelly Coen
-    image_url: https://pbs.twimg.com/profile_images/530748120905154560/jLx4Inz3.jpeg
+    image_url: images/team/shelly.jpg
     twitter: shellycoen
     github: shellycoen
