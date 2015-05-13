@@ -60,9 +60,9 @@ header.navigation {
     float: none;
     min-height: $navigation-height;
 
-    @include media ($horizontal-bar-mode) {
-      float: right;
-    }
+    // @include media ($horizontal-bar-mode) {
+    //   float: right;
+    // }
   }
 
   ul.navigation-menu {
@@ -326,4 +326,3 @@ header.navigation {
     }
   }
 }
-

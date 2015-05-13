@@ -1,40 +1,14 @@
-<section class="sponsors" id="sponsors">
-  <div class="container">
-    <h3>Partners</h3>
-    <div class="sponsor">
-      <a href="https://codeship.com/?utm_source=offline&utm_medium=event&utm_campaign=rossconf" target="_blank">
-        <span class="helper"></span>
-        <img src="/images/sponsors/codeship_colour.png" /></a>
+<% if sponsors %>
+  <section class="sponsors" id="sponsors">
+    <div class="container">
+      <h3>Partners</h3>
+      <% sponsors.each do |sponsor| %>
+        <div class="sponsor">
+          <a href="<%= sponsor.url %>" target="_blank">
+            <span class="helper"></span>
+            <img src="<%= sponsor.image %>" /></a>
+        </div>
+      <% end %>
     </div>
-    <div class="sponsor">
-      <a href="http://www.runtastic.com/jobs" target="_blank">
-        <span class="helper"></span>
-        <img src="/images/sponsors/runtastic.png" /></a>
-    </div>
-    <div class="sponsor">
-      <a href="http://www.sektor5.at" target="_blank">
-        <span class="helper"></span>
-        <img src="/images/sponsors/s5_Logo_high.png" /></a>
-    </div>
-    <div class="sponsor">
-      <a href="http://mjam.net/" target="_blank">
-        <span class="helper"></span>
-        <img src="/images/sponsors/mjam_logo.png" /></a>
-    </div>
-    <div class="sponsor">
-      <a href="http://www.thechangelog.com/" target="_blank">
-        <span class="helper"></span>
-        <img src="/images/sponsors/changelog.png" /></a>
-    </div>
-    <div class="sponsor">
-      <a href="http://www.falkensteiner.com/de/hotel/schottenfeld" target="_blank">
-        <span class="helper"></span>
-        <img src="/images/sponsors/2510_b_Schottenfeld_NEG.jpg" /></a>
-    </div>
-    <!-- <div class="sponsor">
-      <a href="http://www.github.com" target="_blank">
-        <span class="helper"></span>
-        <img src="/images/sponsors/GitHub-Mark-120px-plus.png" /></a>
-    </div> -->
-  </div>
-</section>
+  </section>
+<% end %>

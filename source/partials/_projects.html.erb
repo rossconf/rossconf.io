@@ -1,21 +1,22 @@
-<section class="projects" id="projects">
-  <div class="container">
-    <h2>Projects</h2>
-    <% data.content.projects.each do |project| %>
-      <div class="l_cell-row">
-        <div class="l_image-cell">
-         <%= image_tag project.image_url, alt: project.name %>
-        </div>
-        <div class="l_text-cell">
-          <h3 class="subhead">
-            <%= project.name %>
-          </h3>
-          <div class="body">
-            <%= md(project.bio) %>
+<% if projects %>
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <% projects.each do |project| %>
+        <div class="l_cell-row">
+          <div class="l_image-cell">
+           <%= image_tag project.image_url, alt: project.name %>
+          </div>
+          <div class="l_text-cell">
+            <h3 class="subhead">
+              <%= project.name %>
+            </h3>
+            <div class="body">
+              <%= md(project.bio) %>
+            </div>
           </div>
         </div>
-      </div>
-    <% end %>
-  </div>
-</section>
-
+      <% end %>
+    </div>
+  </section>
+<% end %>

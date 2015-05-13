@@ -1,0 +1,29 @@
+<header>
+  <% if event.header %>
+    <%= image_tag event.header, class: "header-image", alt: event.header_alt %>
+  <% end %>
+
+  <div class="container">
+    <div class="header-info">
+      <h2 class="header-title"><%= event.city %></h2>
+      <h2 class="header-date"><%= event.tagline %></h2>
+    </div>
+  </div>
+
+</header>
+
+<%= partial "partials/nav", locals: { event: event } %>
+
+<section class="intro">
+  <div class="container">
+    <h2><%= event.title %></h2>
+    <%= event.description %>
+  </div>
+</section>
+
+<%= partial "partials/speakers", locals: { speakers: event.speakers } %>
+<%= partial "partials/projects", locals: { projects: event.projects } %>
+<%= partial "partials/schedule", locals: { schedule: event.schedule } %>
+<%= partial "partials/team",     locals: { team: event.team } %>
+<%= partial "partials/location", locals: { location: event.location } %>
+<%= partial "partials/sponsors", locals: { sponsors: event.sponsors } %>

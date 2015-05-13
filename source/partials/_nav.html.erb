@@ -4,15 +4,29 @@
       <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
       <div class="nav">
         <ul id="js-navigation-menu" class="navigation-menu show">
-          <li class="nav-link"><%= link_to "Speakers", "/#speakers" %></li>
-          <li class="nav-link"><%= link_to "Projects", "/#projects" %></li>
-          <li class="nav-link"><%= link_to "Schedule", "/#schedule" %></li>
-          <li class="nav-link"><%= link_to "Tickets", "/#tickets" %></li>
-          <li class="nav-link"><%= link_to "Team", "/#team" %></li>
-          <li class="nav-link"><%= link_to "Location", "/#location" %></li>
-          <li class="nav-link"><%= link_to "Code of Conduct", "/#coc" %></li>
-          <li class="nav-link"><%= link_to "Sponsors", "/#sponsors" %></li>
-          <li class="nav-link"><%= link_to "Contact", "/#footer" %></li>
+          <% if event.speakers %>
+            <li class="nav-link"><%= link_to "Speakers", "#speakers" %></li>
+          <% end %>
+
+          <% if event.projects %>
+            <li class="nav-link"><%= link_to "Projects", "#projects" %></li>
+          <% end %>
+
+          <% if event.schedule %>
+            <li class="nav-link"><%= link_to "Schedule", "#schedule" %></li>
+          <% end %>
+
+          <% if event.team %>
+            <li class="nav-link"><%= link_to "Team",    "#team" %></li>
+          <% end %>
+
+          <% if event.location %>
+            <li class="nav-link"><%= link_to "Location", "#location" %></li>
+          <% end %>
+
+          <% if event.sponsors %>
+            <li class="nav-link"><%= link_to "Sponsors", "#sponsors" %></li>
+          <% end %>
         </ul>
       </div>
     </div>
