@@ -31,7 +31,7 @@ set :analytics_code, "UA-60869001-1"
 #   page "/admin/*"
 # end
 
-proxy "code-of-conduct", "/coc.html"
+proxy "code-of-conduct.html", "/coc.html"
 
 data.events.each do |city, event|
   proxy "event/#{city}.html", "/event.html", :locals => { :event => event }
