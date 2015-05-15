@@ -14,6 +14,8 @@
 
 <%= partial "partials/nav", locals: { event: event } %>
 
+<%= partial 'partials/social', locals: { social: event.social } %>
+
 <section class="intro">
   <div class="container">
     <h2><%= event.title %></h2>
@@ -25,5 +27,6 @@
 <%= partial "partials/projects", locals: { projects: event.projects } %>
 <%= partial "partials/schedule", locals: { schedule: event.schedule } %>
 <%= partial "partials/team",     locals: { team: event.team } %>
+<%= partial 'partials/coc.html', locals: { coc: event.coc } %>
 <%= partial "partials/location", locals: { location: event.location } %>
 <%= partial "partials/sponsors", locals: { sponsors: event.sponsors } %>

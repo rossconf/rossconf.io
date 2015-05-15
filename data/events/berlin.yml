@@ -9,6 +9,12 @@ keywords:
   - Ruby Open Source
   - open source vienna
 
+social:
+  twitter: ROSSConf
+  faceboook: https://www.facebook.com/rossconf
+
+coc: "You can reach out to contact@rossconf.io and approach each of our team members at the event."
+
 ###################### SPEAKERS ##########################
 speakers:
   - name: Zacahry Scott
