@@ -2,7 +2,7 @@
   <% data.events.each do |city, event| %>
     <% if event %>
       <div class="event-link<%= event.past == true ? ' past' : '' %>" style="background-image: url(<%= event.header %>);">
-        <a href="/event/<%= city %>"><%= city.capitalize %><br /><%= event.date %></a>
+        <a href="/event/<%= city %>.html"><%= city.capitalize %><br /><%= event.date %></a>
       </div>
     <% end %>
   <% end %>
