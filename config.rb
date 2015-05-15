@@ -74,17 +74,18 @@ configure :build do
   activate :asset_hash
 
   # Generate favicons
-  activate :favicon_maker, icons: {
-    "_favicon_template.png" => [
-      { icon: "apple-touch-icon-152x152-precomposed.png" },
-      { icon: "apple-touch-icon-144x144-precomposed.png" },
-      { icon: "apple-touch-icon-114x114-precomposed.png" },
-      { icon: "apple-touch-icon-72x72-precomposed.png" },
-      { icon: "apple-touch-icon-precomposed.png", size: "57x57" },
-      { icon: "favicon.png", size: "16x16" },
-      { icon: "favicon.ico", size: "64x64,32x32,24x24,16x16" },
-    ]
-  }
+  #
+  # activate :favicon_maker, icons: {
+  #   "_favicon_template.png" => [
+  #     { icon: "apple-touch-icon-152x152-precomposed.png" },
+  #     { icon: "apple-touch-icon-144x144-precomposed.png" },
+  #     { icon: "apple-touch-icon-114x114-precomposed.png" },
+  #     { icon: "apple-touch-icon-72x72-precomposed.png" },
+  #     { icon: "apple-touch-icon-precomposed.png", size: "57x57" },
+  #     { icon: "favicon.png", size: "16x16" },
+  #     { icon: "favicon.ico", size: "64x64,32x32,24x24,16x16" },
+  #   ]
+  # }
 
   # Use relative URLs
   # activate :relative_assets

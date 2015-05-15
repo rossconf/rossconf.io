@@ -34,15 +34,12 @@ GEM
       sass (>= 3.3.0, < 3.5)
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
-    docile (1.1.5)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
     eventmachine (1.0.4)
     execjs (2.0.2)
-    favicon_maker (1.3)
-      docile (~> 1.1)
     ffi (1.9.6)
     haml (4.0.6)
       tilt
@@ -86,9 +83,6 @@ GEM
       middleman-core (>= 3.2)
       net-sftp
       ptools
-    middleman-favicon-maker (3.7)
-      favicon_maker (~> 1.3)
-      middleman-core (>= 3.0.0)
     middleman-livereload (3.1.1)
       em-websocket (>= 0.2.0)
       middleman-core (>= 3.0.2)
@@ -159,7 +153,6 @@ DEPENDENCIES
   bourbon
   middleman (~> 3.3.6)
   middleman-deploy (~> 0.3.0)
-  middleman-favicon-maker (~> 3.7)
   middleman-livereload (~> 3.1.0)
   neat
   pry
