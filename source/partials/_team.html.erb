@@ -1,28 +1,30 @@
-<section class="team" id="team">
-  <div class="container">
-    <h2>Team</h2>
-    <% data.content.team.each do |person| %>
-      <div class="l_cell">
-        <div class="l_image-cell">
-         <%= image_tag person.image_url, class: "image-round", alt: person.name %>
-        </div>
-        <div class="l_text-cell">
-          <h3 class="subhead">
-            <%= person.name %>
-          </h3>
-          <% %w(twitter github).each do |social|  %>
-            <% if person.send(social) %>
-              <span class="social-link">
-                <% link_to "https://#{social}.com/#{person.send(social)}" do %>
-                  <i class="icon-<%= social %>"></i>
-                <% end %>
-              </span>
+<% if team %>
+  <section class="team" id="team">
+    <div class="container">
+      <h2>Team</h2>
+      <% team.each do |person| %>
+        <div class="l_cell">
+          <div class="l_image-cell">
+           <%= image_tag person.image_url, class: "image-round", alt: person.name %>
+          </div>
+          <div class="l_text-cell">
+            <h3 class="subhead">
+              <%= person.name %>
+            </h3>
+            <% %w(twitter github).each do |social|  %>
+              <% if person.send(social) %>
+                <span class="social-link">
+                  <% link_to "https://#{social}.com/#{person.send(social)}" do %>
+                    <i class="icon-<%= social %>"></i>
+                  <% end %>
+                </span>
+              <% end %>
             <% end %>
-          <% end %>
-          <div class="body">
+            <div class="body">
+            </div>
           </div>
         </div>
-      </div>
-    <% end %>
-  </div>
-</section>
+      <% end %>
+    </div>
+  </section>
+<% end %>

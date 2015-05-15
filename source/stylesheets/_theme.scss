@@ -1,3 +1,44 @@
+body>header {
+  background: $darker-gray;
+  .container {
+    padding: 1em 0;
+  }
+
+  nav.main {
+    float: right;
+    text-align: right;
+    a {
+      color: #FFF;
+    }
+  }
+
+  img {
+    width: 200px;
+    height: auto;
+  }
+}
+
+.event-grid {
+  position: relative;
+  overflow: hidden;
+  width: auto;
+  .event-link {
+    position: relative;
+    width: 50%;
+    padding: 10%;
+    float: left;
+    font-size: 2em;
+    line-height: 1.5em;
+    background: url(/images/header-bg.jpg) 50% 50% no-repeat;
+    a {
+      display: block;
+      text-align: center;
+      color: #FFF;
+      font-weight: bold;
+    }
+  }
+}
+
 img.image-round {
   border-radius: 50%;
   filter: grayscale(100%);
@@ -58,4 +99,3 @@ section {
     }
   }
 }
-

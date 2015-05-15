@@ -1,38 +1,9 @@
----
-title: ROSSConf
----
-<header>
-  <%= image_tag "header-bg.jpg", class: "header-image", alt: 'Ruby Open Source Software Conference Vienna' %>
-  <div class="container">
-    <div class="header-info">
-      <%= image_tag "basic_logo.png", class: "header-logo", alt: 'ROSSConf Vienna' %>
-      <h2 class="header-title">ROSSConf Vienna</h2>
-      <h2 class="header-date">April 25, 2015 @ sektor5</h2>
-    </div>
-  </div>
-</header>
-
-<section class="intro">
-  <div class="container">
-    <h2>Vienna's First Conference Dedicated to Open Source</h2>
-    <p>ROSS Conf is a one day mini-conference bringing Open Source Software maintainers and developers together in one room. Or in multiple rooms, to be fair. The projects participating in its first edition include exercism.io from Katrina Owen and RVM from Michal Papis. In the morning bit the project owners will introduce their projects and share what would need work in the afternoon hackathon-y part.</p>
-    <p>We ask for a deposit which you will get back upon attendance.</p>
-    <p><a class="button" href="https://www.eventbrite.co.uk/e/ross-conf-tickets-16138980124" target="_blank">Register Now!</a></p>
-  </div>
-</section>
-
-<%= partial "partials/speakers" %>
-<%= partial "partials/projects" %>
-<%= partial "partials/schedule" %>
-<%= partial "partials/team" %>
-<%= partial "partials/location" %>
-<%= partial "partials/tickets" %>
-<%= partial "partials/coc" %>
-<%= partial "partials/sponsors" %>
-
-<footer id="footer">
-  <div class="container">
-    <p><a href="https://twitter.com/ROSSConf" target="_blank">Twitter</a>&nbsp;&nbsp;&nbsp;<a href="http://www.meetup.com/vienna-rb/events/221101650/" target="_blank">Meetup</a>&nbsp;&nbsp;&nbsp;<a href="https://facebook.com/rossconf?fref=website">Facebook</a>&nbsp;&nbsp;&nbsp;<a href="https://www.eventbrite.co.uk/e/ross-conf-tickets-16138980124" target="_blank">Eventbrite</a></p>
-    <p><a href="https://www.flickr.com/photos/bcnbits/2101901830/sizes/o/" target="_blank">photo credit</a> | <a href="http://www.dannylelieveld.com/" target="_blank">logo by Danny Lelieveld</a> | <a href="http://generator.rossconf.io/" target="_blank">logo animation by Sebastian Gräßl</a></p>
-  </div>
-</footer>
+<div class="event-grid">
+  <% data.events.each do |city, event| %>
+    <% if event %>
+      <div class="event-link<%= event.past == true ? ' past' : '' %>" style="background-image: url(<%= event.header %>);">
+        <a href="/event/<%= city %>"><%= city.capitalize %><br /><%= event.date %></a>
+      </div>
+    <% end %>
+  <% end %>
+</div>
