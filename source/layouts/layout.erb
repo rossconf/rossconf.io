@@ -3,8 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="description" content="<%= data.content.meta.description %>">
-    <meta name="keywords" content="<%= data.content.meta.keywords.join(', ') %>">
+    <% if defined?(event) %>
+      <meta name="description" content="<%= event.meta.description %>">
+      <meta name="keywords" content="<%= event.meta.keywords.join(', ') %>">
+    <% else %>
+      <meta name="description" content="<%= data.content.meta.description %>">
+      <meta name="keywords" content="<%= data.content.meta.keywords.join(', ') %>">
+    <% end %>
     <title>
       <% if defined?(event) %>
         <%= event.city %> |
@@ -42,7 +47,7 @@
 
     <footer id="footer">
       <div class="container">
-        Get in touch with ROSSConf via contact@rossconf.io 
+        Get in touch with ROSSConf via contact@rossconf.io
 
         <hr />
         <p><a href="https://www.flickr.com/photos/bcnbits/2101901830/sizes/o/" target="_blank">photo credit</a> | <a href="http://www.dannylelieveld.com/" target="_blank">logo by Danny Lelieveld</a> | <a href="http://generator.rossconf.io/" target="_blank">logo animation by Sebastian Gräßl</a></p>

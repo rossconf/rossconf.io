@@ -3,11 +3,15 @@ header: /images/berlin_header.jpg
 tagline: Berlin's next Ruby Open Source Software Conference and Hackathon
 date: September 26, 2015
 description: '<p>ROSS Conf is a one day mini-conference bringing Open Source Software maintainers and developers together in one room. Or in multiple rooms, to be fair. The projects participating in its second edition include Bundler, Ruby Object Mapper and... Ruby itself. In the morning bit the project owners will introduce their projects and share what would need work in the afternoon hackathon-y part.</p> <p>Registration will start shortly</p>'
-keywords:
-  - ruby
-  - OSS
-  - Ruby Open Source
-  - open source vienna
+
+meta:
+  description: Berlin's next Ruby Open Source Software Conference and Hackathon
+  keywords:
+    - ruby
+    - OSS
+    - Ruby Open Source
+    - open source berlin
+    - bundler
 
 social:
   twitter: ROSSConf
