@@ -90,3 +90,10 @@ team:
     image_url: /images/team/laura.png
     twitter: alicetragedy
     github: alicetragedy
+
+###################### SPONSORS ##########################
+
+partners:
+  - name: Travis Foundation
+    url: 'http://foundation.travis-ci.org/'
+    image: '/images/sponsors/travisfoundation.png'
