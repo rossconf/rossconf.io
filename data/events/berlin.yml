@@ -31,6 +31,12 @@ speakers:
     github: zzak
     bio: "Ruby committer from Vermont living in San Francisco. Big hearted crazy cat guy."
 
+  - name: Amy Wibowo
+    image_url: /images/speakers/amy.jpg
+    twitter: sailorhg
+    github: sailorhg
+    bio: "Founder of bubblesort zines http://shop.bubblesort.io; computer scientist girl armed with a bubble gun; previously @airbnb @asimo @univ_of_tokyo @mit"
+
   - name: André Arko
     image_url: /images/speakers/andre.png
     twitter: indirect
