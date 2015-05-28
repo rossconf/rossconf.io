@@ -1,7 +1,7 @@
 city: Berlin
 header: /images/berlin_header.jpg
 tagline: Berlin's next Ruby Open Source Software Conference and Hackathon
-date: September 26, 2015
+date: September 26, 2015 @ betahaus
 description: '<p>ROSS Conf is a one day mini-conference bringing Open Source Software maintainers and developers together in one room. Or in multiple rooms, to be fair. The projects participating in its second edition include Bundler, Ruby Object Mapper and... Ruby itself. In the morning bit the project owners will introduce their projects and share what would need work in the afternoon hackathon-y part.</p> <p>Registration will start shortly</p>'
 
 meta:
@@ -16,6 +16,10 @@ meta:
 social:
   twitter: ROSSConf
   faceboook: https://www.facebook.com/rossconf
+
+location:
+  map_link: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9715.030533180538!2d13.4128417!3d52.5016267!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1687d2a7997ddff1!2sbetahaus!5e0!3m2!1sen!2sat!4v1432794015225'
+  address: "betahaus<br /> Prinzessinnenstraße 19-20<br /> 10969 Berlin<br /> Germany"
 
 coc: "You can reach out to contact@rossconf.io and approach each of our team members at the event."
 
