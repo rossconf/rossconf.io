@@ -4,7 +4,15 @@ end
 
 set :site_name, "ROSSConf"
 set :analytics_code, "UA-60869001-1"
-#
+
+###
+# Blog
+###
+activate :blog do |blog|
+  # set options on blog
+  blog.prefix = "blog"
+  #blog.permlink = "blog/{year}/{month}/{day}/{title}.html"
+end
 ###
 # Compass
 ###
