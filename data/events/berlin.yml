@@ -1,7 +1,7 @@
 city: Berlin
 header: /images/berlin_header.jpg
 tagline: Berlin's next Ruby Open Source Software Conference and Hackathon
-date: September 26, 2015 @ betahaus
+date: September 26, 2015 @ Wooga
 description: '<p>ROSS Conf is a one day mini-conference bringing Open Source Software maintainers and developers together in one room. Or in multiple rooms, to be fair. The projects participating in its second edition include Bundler, Ruby Object Mapper and... Ruby itself. In the morning bit the project owners will introduce their projects and share what would need work in the afternoon hackathon-y part.</p> <p>Registration will start shortly</p>'
 
 meta:
@@ -18,8 +18,8 @@ social:
   faceboook: https://www.facebook.com/rossconf
 
 location:
-  map_link: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9715.030533180538!2d13.4128417!3d52.5016267!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1687d2a7997ddff1!2sbetahaus!5e0!3m2!1sen!2sat!4v1432794015225'
-  address: '<a href="http://www.betahaus.com/">betahaus</a><br /> Prinzessinnenstraße 19-20<br /> 10969 Berlin<br /> Germany'
+  map_link: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2427.283199280699!2d13.4154047!3d52.5283101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e1ceeeb81c9%3A0x1abbac851729ab4f!2sSaarbr%C3%BCcker+Str.+38%2C+10405+Berlin%2C+Germany!5e0!3m2!1sen!2sus!4v1436998464916'
+  address: '<a href="http://www.wooga.com/">Wooga</a><br />Saarbrücker Straße 38<br />10405 Berlin'
 
 coc: "You can reach out to hello@rossconf.io and approach each of our team members at the event."
 
@@ -96,6 +96,14 @@ team:
     github: alicetragedy
 
 ###################### SPONSORS ##########################
+
+sponsors:
+  - name: Codeship
+    url: 'https://codeship.com/?utm_source=offline&utm_medium=event&utm_campaign=rossconf'
+    image: '/images/sponsors/codeship_colour.png'
+  - name: Wooga
+    url: http://www.wooga.com/
+    image: '/images/sponsors/wooga.png'
 
 partners:
   - name: Travis Foundation
