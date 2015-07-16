@@ -31,6 +31,12 @@ speakers:
     github: zzak
     bio: "Ruby committer from Vermont living in San Francisco. Big hearted crazy cat guy."
 
+  - name: Laura Frank
+    image_url: /images/speakers/laura_frank.jpg
+    twitter: rhein_wein
+    github: rheinwein
+    bio: "Co-maintainer of Panamax, a Docker management tool. Loves containers, coffee, and Doom, and especially all three together."
+
   - name: André Arko
     image_url: /images/speakers/andre.png
     twitter: indirect
@@ -43,12 +49,15 @@ speakers:
     github: solnic
     bio: "Over 8 years of experience with Ruby and Rails. Knows his way around legacy systems. Also: 'the other Piotr S.'."
 
-
 ###################### PROJECTS ##########################
 projects:
   - name: Ruby
     image_url: /images/projects/ruby.png
     bio: "[Ruby](https://github.com/ruby/ruby) is the interpreted scripting language for quick and easy object-oriented programming. It has many features to process text files and to do system management tasks (as in Perl). It is simple, straight-forward, and extensible."
+
+  - name: Panamax
+    image_url: http://panamax.io/assets/images/about_ctl/logo_panamax.svg
+    bio: "Panamax makes creating Docker applications easy. It provides a friendly interface for users of Docker, Fleet, CoreOS, Kubernetes, and supports remote application deployments to cloud providers."
 
   - name: Bundler
     image_url: /images/projects/bundler.png
@@ -58,8 +67,6 @@ projects:
     image_url: /images/projects/rom.png
     bio: "[Ruby Object Mapper](http://rom-rb.org/) (ROM) is an experimental Ruby library with the goal to provide powerful object mapping capabilities without limiting the full power of your datastore."
 
-
-
 ###################### SCHEDULE ##########################
 schedule:
   "10:00 - 11:00": Registration
@@ -68,7 +75,7 @@ schedule:
   "11:40 - 12:00": Piotr Solnica - Ruby Object Mapper
   "12:10 - 12:30": Zachary Scott - Ruby
   "12:40 - 13:40": Lunch
-  "13:40 - 14:00": talk 4
+  "13:40 - 14:00": Laura Falk - Panamax
   "14:00 - 14:20": talk 5
   "14:20 - 19:00": Hackathon
   "19:00": Wrap up, food and networking
