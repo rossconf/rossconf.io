@@ -31,5 +31,5 @@
   <%= partial "partials/team",     locals: { team: event.team } %>
   <%= partial 'partials/coc.html', locals: { coc: event.coc } %>
   <%= partial "partials/location", locals: { location: event.location } %>
-  <%= partial "partials/sponsors", locals: { sponsors: event.sponsors } %>
+  <%= partial "partials/sponsors", locals: { sponsors: event.sponsors, event: event } %>
 <% end %>

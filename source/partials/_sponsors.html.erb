@@ -9,6 +9,9 @@
             <img src="<%= sponsor.image %>" /></a>
         </div>
       <% end %>
+      <p class="sponsoring">
+        <strong><a href="mailto:<%= event.sponsoring_email %>?subject=Sponsoring ROSSConf <%= event.city %>">Want to help us out as well?</a></strong>
+      </p>
     </div>
   </section>
 <% end %>
