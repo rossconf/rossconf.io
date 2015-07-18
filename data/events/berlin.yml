@@ -108,6 +108,11 @@ team:
     twitter: gosia_ciesla
     github: gosiaciesla
 
+  - name: Sara Regan
+    image_url: /images/team/sara.png
+    twitter: sareg0
+    github: sareg0
+
 ###################### SPONSORS ##########################
 
 sponsors:
