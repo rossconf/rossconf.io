@@ -27,6 +27,7 @@
 
   <%= partial "partials/speakers", locals: { speakers: event.speakers } %>
   <%= partial "partials/projects", locals: { projects: event.projects } %>
+  <%= partial "partials/tickets",  locals: { event: event } %>
   <%= partial "partials/schedule", locals: { schedule: event.schedule } %>
   <%= partial "partials/team",     locals: { team: event.team } %>
   <%= partial 'partials/coc.html', locals: { coc: event.coc } %>

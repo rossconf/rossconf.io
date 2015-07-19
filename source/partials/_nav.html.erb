@@ -12,6 +12,10 @@
             <li class="nav-link"><%= link_to "Projects", "#projects" %></li>
           <% end %>
 
+          <% if event.eventbrite_link %>
+            <li class="nav-link"><%= link_to "Tickets", "#tickets" %></li>
+          <% end %>
+
           <% if event.schedule %>
             <li class="nav-link"><%= link_to "Schedule", "#schedule" %></li>
           <% end %>
