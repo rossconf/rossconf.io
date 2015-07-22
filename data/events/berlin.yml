@@ -77,7 +77,7 @@ projects:
 
   - name: Speakerinnen
     image_url: /images/projects/speakerinnen.png
-    bio: "The Speakerinnen List aims to increase the visibility and participation of women at conferences, panels and talk shows. Organizers and hosts can find experts who share their knowledge. Women can register in our database with the topics they are interested in covering. The project is made and maintained by women of a RailsGirls group called the rubymonsters."
+    bio: "[The Speakerinnen List](https://speakerinnen.org/) aims to increase the visibility and participation of women at conferences, panels and talk shows. Organizers and hosts can find experts who share their knowledge. Women can register in our database with the topics they are interested in covering. The project is made and maintained by women of a RailsGirls group called the rubymonsters."
 
 ###################### SCHEDULE ##########################
 schedule:
