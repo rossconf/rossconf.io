@@ -30,3 +30,9 @@ Contributing
 - Commit your changes (git commit -am 'Added some feature')
 - Push to the branch (git push origin my-new-feature)
 - Create new Pull Request
+
+Code of Conduct
+=========
+
+This project adheres to the [Open Code of Conduct][code-of-conduct]. By participating, you are expected to honor this code.
+[code-of-conduct]: http://todogroup.org/opencodeofconduct/#ROSSConf/hello@rossconf.io

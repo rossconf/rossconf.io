@@ -36,8 +36,8 @@
         <nav class="main">
           <ul>
             <li class="nav-link"><%= link_to "Blog", "/blog" %></li>
-            <li class="nav-link"><%= link_to "Code of Conduct", "/code-of-conduct.html" %></li>
             <li class="nav-link"><%= link_to "Contact", "/#footer" %></li>
+            <li class="nav-link"><%= link_to "CoC", "/#footer" %></li>
           </ul>
         </nav>
 
@@ -48,6 +48,11 @@
 
     <footer id="footer">
       <div class="container">
+
+        <%= md2("This project adheres to the [Open Code of Conduct](http://todogroup.org/opencodeofconduct/#ROSSConf/hello@rossconf.io). By participating, you are expected to honor this code.") %>
+
+
+        <hr />
 
           <!-- Begin MailChimp Signup Form -->
         <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
@@ -61,10 +66,11 @@
         </div>
         </form>
         </div>
-
         <!--End mc_embed_signup-->
 
+
         Get in touch with ROSSConf via hello@rossconf.io
+
         <hr />
         <p><a href="https://www.flickr.com/photos/bcnbits/2101901830/sizes/o/" target="_blank">photo credit</a> | <a href="http://www.dannylelieveld.com/" target="_blank">logo by Danny Lelieveld</a> | <a href="http://generator.rossconf.io/" target="_blank">logo animation by Sebastian Gräßl</a></p>
       </div>
