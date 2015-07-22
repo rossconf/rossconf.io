@@ -1,5 +1,20 @@
 .blog {
   article {
-    margin-top: 2em;
+    background: #FFF;
+    padding: 1.5em;
+    border: 1px solid #DCDCDC;
+    margin: 2em 0;
+
+    h2 {
+      color: #454545;
+    }
+
+    a {
+      color: #131313;
+    }
+
+    .meta {
+      font-size: .8em;
+    }
   }
 }
