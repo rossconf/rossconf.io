@@ -57,7 +57,7 @@ end
 
 # Methods defined in the helpers block are available in templates
 helpers do
-  def md(source)
+  def md2(source)
     Tilt::KramdownTemplate.new { source }.render
   end
 end
