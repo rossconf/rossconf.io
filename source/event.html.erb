@@ -27,6 +27,9 @@
 
   <%= partial "partials/speakers", locals: { speakers: event.speakers } %>
   <%= partial "partials/projects", locals: { projects: event.projects } %>
+  <% event.extras.each do |extra| %>
+    <%= partial "extras/#{event.city}/#{extra}" %>
+  <% end %>
   <%= partial "partials/tickets",  locals: { event: event } %>
   <%= partial "partials/schedule", locals: { schedule: event.schedule } %>
   <%= partial "partials/team",     locals: { team: event.team } %>
