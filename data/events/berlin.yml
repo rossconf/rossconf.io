@@ -58,6 +58,7 @@ speakers:
     bio: "One of the developers of speakerinnen, works at Travis-CI."
 
 ###################### PROJECTS ##########################
+
 projects:
   - name: Ruby
     image_url: /images/projects/ruby.png
@@ -80,6 +81,7 @@ projects:
     bio: "[The Speakerinnen List](https://speakerinnen.org/) aims to increase the visibility and participation of women at conferences, panels and talk shows. Organizers and hosts can find experts who share their knowledge. Women can register in our database with the topics they are interested in covering. The project is made and maintained by women of a RailsGirls group called the rubymonsters."
 
 ###################### SCHEDULE ##########################
+
 schedule:
   "10:00 - 11:00": Registration
   "11:00 - 11:10": Kick-off
@@ -93,6 +95,7 @@ schedule:
   "19:00": Wrap up, food and networking
 
 ###################### TEAM ##########################
+
 team:
   - name: Floor Drees
     image_url: /images/team/floor.png
@@ -127,14 +130,16 @@ team:
 ###################### SPONSORS ##########################
 
 sponsors:
+  - name: Travis CI
+    url: 'http://travis-ci.com'
+    image: '/images/sponsors/travis-ci.png'
+    gold: true
   - name: Codeship
     url: 'https://codeship.com/?utm_source=offline&utm_medium=event&utm_campaign=rossconf'
     image: '/images/sponsors/codeship_colour.png'
   - name: Wooga
     url: http://www.wooga.com/
     image: '/images/sponsors/wooga.png'
-
-partners:
-  - name: Travis Foundation
-    url: 'http://foundation.travis-ci.org/'
-    image: '/images/sponsors/travisfoundation.png'
+  - name: Engine Yard
+    url: 'https://www.engineyard.com/'
+    image: '/images/sponsors/engineyard.png'

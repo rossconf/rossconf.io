@@ -1,8 +1,21 @@
+#sponsors {
+  text-align: center;
+}
+
 .sponsor {
-  @include span-columns(2.8);
   min-height: 200px;
+  display: inline-block;
+
+  margin: 0 2em;
+
   img {
     width: 150px;
+  }
+
+  &.gold {
+    img {
+      width: 400px;
+    }
   }
 }
 
