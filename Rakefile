@@ -2,7 +2,7 @@ task default: %w[test]
 
 task :test do
   puts "\nBuilding project"
-  try "bundle exec middleman build"
+  try "bundle exec middleman build --verbose"
 end
 
 task :deploy do
