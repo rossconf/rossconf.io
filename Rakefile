@@ -18,7 +18,6 @@ namespace :travis do
   task :after_success do
     puts "\nRunning Travis Deployment"
     puts "\nSetting up Git access"
-    try "echo ${GH_TOKEN} > ./.git/credentials"
     try "git config --global user.name ${GHUSER}"
     try "git config --global user.email ${GHUSERMAIL}"
     try "git remote set-url origin https://${GH_TOKEN}:x-oauth-basic@github.com/rossconf/rossconf.io.git"
