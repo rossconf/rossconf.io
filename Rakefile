@@ -7,7 +7,7 @@ end
 
 task :deploy do
   puts "\nDeploying to GitHub"
-  try "bundle exec middleman deploy --verbose"
+  try "bundle exec middleman deploy"
 end
 
 namespace :travis do
