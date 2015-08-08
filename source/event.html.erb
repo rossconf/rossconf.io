@@ -29,7 +29,7 @@
   <%= partial "partials/projects", locals: { projects: event.projects } %>
   <% if event.extras %>
     <% event.extras.each do |extra| %>
-      <%= partial "extras/#{event.city}/#{extra}" %>
+      <%= partial "extras/#{event.city}/#{extra}" rescue "" %>
     <% end %>
   <% end %>
   <%= partial "partials/tickets",  locals: { event: event } %>
