@@ -1,7 +1,5 @@
 activate :deploy do |deploy|
   deploy.method = :git
-  deploy.branch = 'gh-pages'
-
   committer_app = "#{Middleman::Deploy::PACKAGE} v#{Middleman::Deploy::VERSION}"
   commit_message = "Deployed using #{committer_app}"
 

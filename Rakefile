@@ -1,14 +1,3 @@
-desc "Build, Deploy to gh-pages and cleanup"
-task :deploy do
-  puts "Building..."
-  system "bundle exec middleman build"
-  puts "Deploying..."
-  system "bundle exec middleman deploy"
-  puts "Cleaning up..."
-  rm_rf "./build"
-  puts "Done"
-end
-
 task default: %w[test]
 
 task :test do
@@ -17,9 +6,6 @@ task :test do
 end
 
 task :deploy do
-  puts "\nCopying GitHub-specific files"
-  try "cp -rv ./github/* ./build/"
-
   puts "\nDeploying to GitHub"
   try "middleman deploy"
 end
