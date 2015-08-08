@@ -45,9 +45,8 @@ footer {
   text-align: center;
 }
 
-#rubyissues {
-  background: url(/images/projects/rubyissues.png) 16% 50% no-repeat #EEA086;
-  .container {
-    padding-left: 180px;
-  }
+#rubyissues .container {
+  background: url(/images/projects/rubyissues.png) 4% 50% no-repeat #EEA086;
+  background-size: contain;
+  padding-left: 180px;
 }
