@@ -3,7 +3,8 @@ city: Vienna
 header: /images/header-bg.jpg
 header_front: /images/header-bg.jpg
 title: Vienna's first Ruby Open Source Software Conference
-date: April 25, 2015 @ sektor5
+date_location: April 25, 2015 @ sektor5
+date: 25-04-2015
 tagline: Come to Vienna's first Ruby conference. April 25, 2015
 description: '<p>ROSS Conf is a one day mini-conference bringing Open Source Software maintainers and developers together in one room. Or in multiple rooms, to be fair. The projects participating in its first edition include exercism.io from Katrina Owen and RVM from Michal Papis. In the morning bit the project owners will introduce their projects and share what would need work in the afternoon hackathon-y part.</p> <p>We ask for a deposit which you will get back upon attendance.</p><p><a class="button" href="https://www.eventbrite.co.uk/e/ross-conf-tickets-16138980124" target="_blank">Register Now!</a></p>'
 

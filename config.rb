@@ -45,10 +45,11 @@ end
 #   page "/admin/*"
 # end
 
-proxy "code-of-conduct.html", "/coc.html"
+
+activate :directory_indexes
 
 data.events.each do |city, event|
-  proxy "event/#{city}.html", "/event.html", :locals => { :event => event }
+  proxy "event/#{city.downcase}/index.html", "/event.html", :locals => { :event => event }
 end
 
 ###

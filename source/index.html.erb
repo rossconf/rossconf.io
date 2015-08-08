@@ -1,10 +1,10 @@
 <div class="event-grid">
-  <% data.events.each do |city, event| %>
+  <% data.events.sort_by { |c, e| Date.parse(e.date) }.reverse.each do |city, event| %>
     <% if event %>
       <div class="event-link">
-        <a href="/event/<%= city %>.html">
+        <a href="/event/<%= city %>">
         <span class="photo" style="background-image: url(<%= event.header_front %>)"></span><br />
-        <%= city.capitalize %><br /><%= event.date %></a>
+        <%= city.capitalize %><br /><%= event.date_location %></a>
       </div>
     <% end %>
   <% end %>
