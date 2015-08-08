@@ -4,8 +4,6 @@ cache:
   bundler: true
   directories:
   - build
-rvm:
-  - 2.2.2
 branches:
   only:
   - master
