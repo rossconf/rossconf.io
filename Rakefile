@@ -35,7 +35,6 @@ namespace :travis do
     try "echo ${GH_TOKEN} > ./.git/credentials"
     try "git config --global user.name ${GHUSER}"
     try "git config --global user.email ${GHUSERMAIL}"
-    try "git remote set-url origin \"https://${GH_TOKEN}@github.com:rossconf/rossconf.io.git\""
 
     Rake::Task["deploy"].invoke
   end
