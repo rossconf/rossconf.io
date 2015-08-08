@@ -1,13 +1,11 @@
 language: ruby
-install:
-  - bundle install
+cache: bundler
+rvm:
+  - 2.1.0
+branches:
+  only:
+  - master
 script:
-  - bundle exec middleman build
+  - bundle exec rake travis:script
 after_success:
-  - git config --global user.email $GHUSERMAIL
-  - git config --global user.name $GHUSER
-  - wget $GHDEPLOYKEY -O .ssh-key
-  - chmod 600 .ssh-key
-  - eval "$('ssh-agent')"
-  - ssh-add .ssh-key
-  - bundle exec middleman deploy
+  - bundle exec rake travis:after_success
