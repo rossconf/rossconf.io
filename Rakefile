@@ -2,12 +2,12 @@ task default: %w[test]
 
 task :test do
   puts "\nBuilding project"
-  try "middleman build"
+  try "bundle exec middleman build"
 end
 
 task :deploy do
   puts "\nDeploying to GitHub"
-  try "middleman deploy"
+  try "bundle exec middleman deploy"
 end
 
 namespace :travis do

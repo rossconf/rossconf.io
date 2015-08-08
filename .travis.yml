@@ -1,6 +1,9 @@
 sudo: false
 language: ruby
-cache: bundler
+cache:
+  bundler: true
+  directories:
+  - build
 rvm:
   - 2.2.2
 branches:
