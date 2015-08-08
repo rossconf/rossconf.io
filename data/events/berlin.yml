@@ -92,7 +92,8 @@ schedule:
   "12:40 - 13:40": Lunch
   "13:40 - 14:00": Laura Frank - Panamax
   "14:00 - 14:20": Tyranja - Speakerinnen
-  "14:20 - 19:00": Hackathon
+  "14:20 - 14:30": Robin - Ruby Issues
+  "14:30 - 19:00": Hackathon
   "19:00": Wrap up, food and networking
 
 ###################### TEAM ##########################
@@ -144,3 +145,6 @@ sponsors:
   - name: Engine Yard
     url: 'https://www.engineyard.com/'
     image: '/images/sponsors/engineyard.png'
+
+extras:
+  - ruby-issues
