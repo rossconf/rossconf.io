@@ -1,6 +1,5 @@
 activate :deploy do |deploy|
   deploy.method = :git
-  deploy.remote = 'https://github.com/rossconf/rossconf.io.git'
 end
 
 set :site_name, "ROSSConf"
