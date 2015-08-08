@@ -1,8 +1,10 @@
 <div class="event-grid">
   <% data.events.each do |city, event| %>
     <% if event %>
-      <div class="event-link<%= event.past == true ? ' past' : '' %>" style="background-image: url(<%= event.header %>);">
-        <a href="/event/<%= city %>.html"><%= city.capitalize %><br /><%= event.date %></a>
+      <div class="event-link">
+        <a href="/event/<%= city %>.html">
+        <span class="photo" style="background-image: url(<%= event.header_front %>)"></span><br />
+        <%= city.capitalize %><br /><%= event.date %></a>
       </div>
     <% end %>
   <% end %>
