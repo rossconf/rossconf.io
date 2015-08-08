@@ -8,6 +8,9 @@ branches:
   only:
   - master
 script:
-  - bundle exec rake travis:script
+- bundle exec rake travis:script
 after_success:
-  - bundle exec rake travis:after_success
+- bundle exec rake travis:after_success
+notifications:
+  slack:
+    secure: ghPIlWsRrj+qnD9pn5DwE11xWxU8OH5pIbAVZ3omVYi/RTsSV/PuB1H8F8Ke+X+jwWtBPZxTEliJupUxuCqyIne5pzbpPPfnb29kFjU1Xl8TchKmYZx3XPw1k0HcUTtkfdN12rD7S4X8GUYFIvMA7FkmeRwQ0Lsmb7/ptAaDkLQ=
