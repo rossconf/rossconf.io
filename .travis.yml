@@ -1,0 +1,13 @@
+language: ruby
+install:
+  - bundle install
+script:
+  - bundle exec middleman build
+after_success:
+  - git config --global user.email $GHUSERMAIL
+  - git config --global user.name $GHUSER
+  - wget $GHDEPLOYKEY -O .ssh-key
+  - chmod 600 .ssh-key
+  - eval "$('ssh-agent')"
+  - ssh-add .ssh-key
+  - bundle exec middleman deploy
