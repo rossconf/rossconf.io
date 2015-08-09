@@ -77,7 +77,7 @@ meta:              # HTML Metadata
 
 social:            # Social media accounts
   twitter:
-  faceboook:
+  facebook:
 
 location:          # Where is your event taking place
   map_link:        # Simply the Google Maps iframe URL
