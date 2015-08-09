@@ -64,23 +64,23 @@ speakers:
 projects:
   - name: Ruby
     image_url: /images/projects/ruby.png
-    bio: "[Ruby](https://github.com/ruby/ruby) is the interpreted scripting language for quick and easy object-oriented programming. It has many features to process text files and to do system management tasks (as in Perl). It is simple, straight-forward, and extensible."
+    description: "[Ruby](https://github.com/ruby/ruby) is the interpreted scripting language for quick and easy object-oriented programming. It has many features to process text files and to do system management tasks (as in Perl). It is simple, straight-forward, and extensible."
 
   - name: Panamax
     image_url: http://panamax.io/assets/images/about_ctl/logo_panamax.svg
-    bio: "[Panamax](http://panamax.io) makes creating Docker applications easy. It provides a friendly interface for users of Docker, Fleet, CoreOS, Kubernetes, and supports remote application deployments to cloud providers."
+    description: "[Panamax](http://panamax.io) makes creating Docker applications easy. It provides a friendly interface for users of Docker, Fleet, CoreOS, Kubernetes, and supports remote application deployments to cloud providers."
 
   - name: Bundler
     image_url: /images/projects/bundler.png
-    bio: "[Bundler](http://bundler.io/) provides a consistent environment for Ruby projects by tracking and installing the exact gems and versions that are needed. Bundler is an exit from dependency hell, and ensures that the gems you need are present in development, staging, and production."
+    description: "[Bundler](http://bundler.io/) provides a consistent environment for Ruby projects by tracking and installing the exact gems and versions that are needed. Bundler is an exit from dependency hell, and ensures that the gems you need are present in development, staging, and production."
 
   - name: Ruby Object Mapper
     image_url: /images/projects/rom.png
-    bio: "[Ruby Object Mapper](http://rom-rb.org/) (ROM) is an experimental Ruby library with the goal to provide powerful object mapping capabilities without limiting the full power of your datastore."
+    description: "[Ruby Object Mapper](http://rom-rb.org/) (ROM) is an experimental Ruby library with the goal to provide powerful object mapping capabilities without limiting the full power of your datastore."
 
   - name: Speakerinnen
     image_url: /images/projects/speakerinnen.png
-    bio: "[The Speakerinnen List](https://speakerinnen.org/) aims to increase the visibility and participation of women at conferences, panels and talk shows. Organizers and hosts can find experts who share their knowledge. Women can register in our database with the topics they are interested in covering. The project is made and maintained by women of a RailsGirls group called the rubymonsters."
+    description: "[The Speakerinnen List](https://speakerinnen.org/) aims to increase the visibility and participation of women at conferences, panels and talk shows. Organizers and hosts can find experts who share their knowledge. Women can register in our database with the topics they are interested in covering. The project is made and maintained by women of a RailsGirls group called the rubymonsters."
 
 ###################### SCHEDULE ##########################
 

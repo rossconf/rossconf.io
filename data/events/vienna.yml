@@ -70,23 +70,23 @@ speakers:
 projects:
   - name: exercism
     image_url: /images/projects/exercism_color.png
-    bio: "[exercism.io](http://exercism.io/) is a platform for practice and crowd-sourced mentorship. The platform delivers exercises in about 20 programming languages. Each exercise consists of a test suite in the target language, and the goal is to make the tests pass, as a starting point for having a conversation about design, idioms, and trade-offs. The conversation leads to iterating on the solution."
+    description: "[exercism.io](http://exercism.io/) is a platform for practice and crowd-sourced mentorship. The platform delivers exercises in about 20 programming languages. Each exercise consists of a test suite in the target language, and the goal is to make the tests pass, as a starting point for having a conversation about design, idioms, and trade-offs. The conversation leads to iterating on the solution."
 
   - name: RVM
     image_url: /images/projects/rvm_color.png
-    bio: "[RVM](http://rvm.io/) was the first version manager for installing Ruby, to solve problems like switching Ruby versions or separating project gems. Today RVM is still leading in the area of installing and switching Ruby, yet Papis is working on a version 2.0."
+    description: "[RVM](http://rvm.io/) was the first version manager for installing Ruby, to solve problems like switching Ruby versions or separating project gems. Today RVM is still leading in the area of installing and switching Ruby, yet Papis is working on a version 2.0."
 
   - name: Diaspora
     image_url: /images/projects/Diaspora_large_new.png
-    bio: "[diaspora&lowast;](https://joindiaspora.com) is the community-run, distributed social network. The software is Rails based and was created in 2010 and is community governed since 2012. Today diaspora is one of the biggest alternatives to centralized social networks with an active and vibrant community."
+    description: "[diaspora&lowast;](https://joindiaspora.com) is the community-run, distributed social network. The software is Rails based and was created in 2010 and is community governed since 2012. Today diaspora is one of the biggest alternatives to centralized social networks with an active and vibrant community."
 
   - name: reek
     image_url: /images/projects/blank.png
-    bio: "[reek](https://github.com/troessner/reek) examines Ruby classes, modules and methods and reports their [code smells](https://github.com/troessner/reek/wiki/Code-Smells) such as control coupling, data clumping, feature envy, utility functions and simulated polymorphism. It might not always be right, but it will make you think about your design decisions and might just make you a better OOP programmer."
+    description: "[reek](https://github.com/troessner/reek) examines Ruby classes, modules and methods and reports their [code smells](https://github.com/troessner/reek/wiki/Code-Smells) such as control coupling, data clumping, feature envy, utility functions and simulated polymorphism. It might not always be right, but it will make you think about your design decisions and might just make you a better OOP programmer."
 
   - name: Yaks
     image_url: /images/projects/yaks.png
-    bio: "[Yaks](https://github.com/plexus/yaks) takes your data and transforms it into hypermedia formats such as HAL, JSON-API, or HTML. It allows you to build APIs that are discoverable and browsable. It is built from the ground up around linked resources, a concept central to the architecture of the web."
+    description: "[Yaks](https://github.com/plexus/yaks) takes your data and transforms it into hypermedia formats such as HAL, JSON-API, or HTML. It allows you to build APIs that are discoverable and browsable. It is built from the ground up around linked resources, a concept central to the architecture of the web."
 
 
 ###################### SCHEDULE ##########################

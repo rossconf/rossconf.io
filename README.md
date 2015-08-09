@@ -102,7 +102,7 @@ speakers:
 projects:
   - name:
     image_url:
-    bio:
+    description:
   - ...
 ```
 
