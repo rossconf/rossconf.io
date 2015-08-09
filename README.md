@@ -88,6 +88,8 @@ coc:               # Where can people get in touch if they need help and/or feel
 
 ##### Speakers
 
+Speakers are added in an array with the following attributes: **name**, **image_url**, **twitter**, **github** and **bio**.
+
 ```
 speakers:
   - name:
@@ -99,6 +101,8 @@ speakers:
 ```
 
 ##### Projects
+
+Projects are as well added as an array, with the attribute: **name**, **image_url** and **description**
 
 ```
 projects:
