@@ -1,0 +1,62 @@
+city:
+header:
+header_front:
+tagline:
+date_location: "September 26, 2015 @ Wooga"
+date: "26-09-2015"
+description:
+sponsoring_email:
+eventbrite_link:
+
+meta:
+  description:
+  keywords:
+    - ...
+social:
+  twitter:
+  faceboook:
+
+location:
+  map_link:
+  address:
+
+###################### SPEAKERS ##########################
+speakers:
+  - name:
+    image_url:
+    twitter:
+    github:
+    bio:
+  - ...
+
+###################### PROJECTS ##########################
+
+projects:
+  - name:
+    image_url:
+    bio:
+  - ...
+
+###################### SCHEDULE ##########################
+
+schedule:
+  "00:00 - 00:00": ...
+  "00:00 - 00:00": ...
+
+###################### TEAM ##########################
+
+team:
+  - name:
+    image_url:
+    twitter:
+    github:
+
+###################### SPONSORS ##########################
+
+sponsors:
+  - name:
+    url:
+    image:
+
+extras:
+  - ...
