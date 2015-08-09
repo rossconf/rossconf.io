@@ -82,6 +82,8 @@ social:            # Social media accounts
 location:          # Where is your event taking place
   map_link:        # Simply the Google Maps iframe URL
   address:         # The address in text.
+
+coc:               # Where can people get in touch if they need help and/or feel the Code of Conduct is not respected?
 ```
 
 ##### Speakers
