@@ -65,7 +65,7 @@ header:            # The image path to the image that should be used as the head
 header_front:      # The image path to what should be shown on the frontpage
 tagline:           # (optional) Will be shown below the first headline
 date_location:     # Nicely combine the date and location like: "September 26, 2015 @ Wooga"
-date:              # When is it in the format of "DD-MM-YYYY"
+date:              # Date of the event in the format of "DD-MM-YYYY"
 description:       # A little intro text
 sponsoring_email:  # Where can people interested in helping get in touch?
 eventbrite_link:   # We used eventbrite for most events, you don't need to but here you can put the link to the tickets.
