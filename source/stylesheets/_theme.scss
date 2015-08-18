@@ -28,7 +28,9 @@ body>header {
     display: inline-block;
     font-size: 2em;
     line-height: 1.5em;
-    margin: 0 2em;
+    @include media($large-screen){
+      margin: 0 2em;
+    }
 
     .photo {
       display: inline-block;
