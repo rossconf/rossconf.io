@@ -1,6 +1,6 @@
 task default: %w[test]
 
-tesk :bower do
+task :bower do
   try "bower install"
 end
 
