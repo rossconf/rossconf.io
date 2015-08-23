@@ -12,17 +12,28 @@ If you'd like to improve http://rossconf.io, add an event or fix a bug we are ha
 
 ## Run Site
 
-This site is built with [middleman](http://middlemanapp.com)
+### Requirements
 
+  * [Ruby](https://www.ruby-lang.org/) and [Bundler](http://bundler.io/)
+  * [Bower](http://bower.io/)
+
+This site is built with [middleman](http://middlemanapp.com)
 To run a local server that watches for changes from your command line
 
 ```
 $ bundle install
+$ bower install # installs javascript components
 $ bundle exec middleman server
 == The Middleman is loading
 == LiveReload is waiting for a browser to connect
 == The Middleman is standing watch at http://0.0.0.0:4567
 == Inspect your site configuration at http://0.0.0.0:4567/__middleman/
+```
+
+alternatively you can run:
+
+```
+$ rake server
 ```
 
 A web-server will then be running and opoen the site on http://localhost:4567
