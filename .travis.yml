@@ -9,6 +9,9 @@ branches:
   - master
 script:
 - bundle exec rake travis:script
+before_script:
+  - npm install -g bower
+  - bower install
 after_success:
 - bundle exec rake travis:after_success
 notifications:
