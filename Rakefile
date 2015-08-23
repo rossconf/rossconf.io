@@ -13,7 +13,7 @@ end
 
 task :test do
   puts "\nBuilding project"
-  Rake::Task["deploy"].invoke
+  Rake::Task["bower"].invoke
   try "bundle exec middleman build --verbose"
 end
 
@@ -29,15 +29,13 @@ namespace :travis do
   end
 
   task :after_success do
-    if !TRAVIS_PULL_REQUEST
-      puts "\nRunning Travis Deployment"
-      puts "\nSetting up Git access"
-      try "git config --global user.name ${GHUSER}"
-      try "git config --global user.email ${GHUSERMAIL}"
-      try "git remote set-url origin https://${GH_TOKEN}:x-oauth-basic@${GH_REPO}"
+    puts "\nRunning Travis Deployment"
+    puts "\nSetting up Git access"
+    try "git config --global user.name ${GHUSER}"
+    try "git config --global user.email ${GHUSERMAIL}"
+    try "git remote set-url origin https://${GH_TOKEN}:x-oauth-basic@${GH_REPO}"
 
-      Rake::Task["deploy"].invoke
-    end
+    Rake::Task["deploy"].invoke
   end
 end
 
