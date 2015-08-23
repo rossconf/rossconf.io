@@ -18,6 +18,8 @@
   ],
   "dependencies": {
     "jquery": "~2.1.4",
-    "slick.js": "~1.5.8"
+    "slick.js": "~1.5.8",
+    "easeljs": "~0.8.1",
+    "lodash": "~3.10.1"
   }
 }

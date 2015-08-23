@@ -1,4 +1,19 @@
 body>header {
+
+  h1 {
+    float: left;
+    margin-bottom: 0;
+    a {
+      color: #FFFFFF;
+      line-height: 84px;
+
+      canvas {
+        float: left;
+        margin-right: .5em;
+      }
+    }
+  }
+
   background: $darker-gray;
   .container {
     padding: 1em 0;

@@ -31,7 +31,16 @@
   <body class="<%= page_classes %>">
     <header>
       <div class="container">
-        <a href="/"><%= image_tag "basic_logo.png", alt: 'ROSSConf' %></a>
+        <h1>
+          <a href="/">
+            ROSSConf <% if defined?(event) %>
+              <%= event.city %>
+            <% end %>
+            <% if current_page.data.title %>
+              :<%= current_page.data.title %>
+            <% end %>
+          </a>
+        </h1>
 
         <nav class="main">
           <ul>
