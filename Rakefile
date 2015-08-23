@@ -29,7 +29,7 @@ namespace :travis do
   end
 
   task :after_success do
-    if ENV['TRAVIS_BRANCH'] == "master"
+    if !TRAVIS_PULL_REQUEST
       puts "\nRunning Travis Deployment"
       puts "\nSetting up Git access"
       try "git config --global user.name ${GHUSER}"
