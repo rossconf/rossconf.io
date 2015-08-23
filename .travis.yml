@@ -4,6 +4,7 @@ cache:
   bundler: true
   directories:
   - build
+  - bower_components
 branches:
   only:
   - master
