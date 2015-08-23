@@ -37,12 +37,28 @@
   .blog-list {
     * { font-size: 1em; }
     article {
-      width: 50%;
+      position: relative;
+      width: 44%;
+      margin: 2em 3%;
+      float: left;
+      min-height: 470px;
+    }
+    header {
+      min-height: 190px;
     }
     h2 {
       font-size: 1.5em;
       margin: 0;
+      position: absolute;
+      bottom:  1em;
+      left: 1em;
+      right: 1em;
       padding: 1em .5em;
+    }
+    small {
+      position: absolute;
+      bottom: 1.5em;
+      right: 1.5em;
     }
   }
 }
