@@ -13,10 +13,11 @@ per_page: 10
 <% page_articles.each_with_index do |article, i| %>
 <div class="container">
   <article id='<%= article.data.slug %>'>
-    <h2><%= article.title %></h2>
-    <%= article.body %>
-    <hr />
-    <p class="meta">Posted on <%= article.date.strftime('%b %e') %> by <%= article.data.author %></p>
+    <strong>
+      <a href="<%= article.url %>"><%= article.title %></a>
+    </strong>
+    <%= article.summary(300, '') %>
+    <small><%= link_to 'Read on >>', article.url %></small>
   </article>
 </div>
 <% end %>

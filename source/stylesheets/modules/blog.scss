@@ -5,8 +5,18 @@
     border: 1px solid #DCDCDC;
     margin: 2em 0;
 
-    h2 {
-      color: #454545;
+    header {
+      margin: -1.5em -1.5em 2em -1.5em;
+      padding: 1.5em;
+      background-position: 50% 50%;
+      background-size:     cover;
+
+      h2 {
+        color: #454545;
+        background: rgba(255, 255, 255, .8);
+        margin: 5em 0 1.5em -1.5em;
+        padding: .5em 0 .5em 1.5em;
+      }
     }
 
     a {

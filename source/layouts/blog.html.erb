@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%= partial "partials/head" %>
+  </head>
+  <body class="<%= page_classes %>">
+    <%= partial "partials/header" %>
+
+    <div class="container">
+      <article>
+        <header style="background-image: url(/blog/<%= current_article.date.year %>-<%= current_article.date.strftime('%m') %>-<%= current_article.slug %>/header.jpg)">
+          <% if current_page.data.title %>
+            <h2><%= current_page.data.title %></h2>
+          <% end %>
+        </header>
+
+        <%= yield %>
+        <hr />
+        <p class="meta">Posted on <%= current_article.date.strftime('%b %e') %> by <%= current_article.data.author %></p>
+
+        <%= disqus %>
+        <%= disqus_count %>
+      </article>
+    </div>
+
+    <%= partial "partials/footer" %>
+  </body>
+  </html>
