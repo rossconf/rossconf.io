@@ -19,12 +19,30 @@
       }
     }
 
+    small {
+      display: block;
+      text-align: right;
+      font-size: .8em;
+    }
+
     a {
       color: #131313;
     }
 
     .meta {
       font-size: .8em;
+    }
+  }
+
+  .blog-list {
+    * { font-size: 1em; }
+    article {
+      width: 50%;
+    }
+    h2 {
+      font-size: 1.5em;
+      margin: 0;
+      padding: 1em .5em;
     }
   }
 }
