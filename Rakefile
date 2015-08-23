@@ -1,12 +1,18 @@
 task default: %w[test]
 
+tesk :bower do
+  try "bower install"
+end
+
 task :test do
   puts "\nBuilding project"
+  Rake::Task["deploy"].invoke
   try "bundle exec middleman build --verbose"
 end
 
 task :deploy do
   puts "\nDeploying to GitHub"
+  Rake::Task["bower"].invoke
   try "bundle exec middleman deploy"
 end
 

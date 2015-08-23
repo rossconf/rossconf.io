@@ -1,7 +1,7 @@
-//= require vendor/jquery/dist/jquery.min.js
-//= require vendor/lodash/lodash.min.js
-//= require vendor/easeljs/lib/easeljs-0.8.1.min.js
-//= require vendor/slick.js/slick/slick.min.js
+//= require jquery
+//= require lodash
+//= require easeljs
+//= require slick.js/slick/slick
 
 function ROSSConfLogo(value, width) {
   this.alphabet  = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
