@@ -1,6 +1,7 @@
 //= require vendor/jquery/dist/jquery.min.js
 //= require vendor/lodash/lodash.min.js
 //= require vendor/easeljs/lib/easeljs-0.8.1.min.js
+//= require vendor/slick.js/slick/slick.min.js
 
 function ROSSConfLogo(value, width) {
   this.alphabet  = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
@@ -106,4 +107,12 @@ function ROSSConfLogo(value, width) {
 
 $(document).on('ready', function(){
   new ROSSConfLogo($('header h1').text().trim(), 100);
+
+  $('.testimonials').slick({
+    arrows:   false,
+    dots:     true,
+    autoplay: true,
+    autoplaySpeed: 1000*10
+  });
+
 });

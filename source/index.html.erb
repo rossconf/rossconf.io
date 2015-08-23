@@ -1,3 +1,17 @@
+<% content = data.content.pages.main %>
+<div id="testimonials">
+  <div class="testimonials">
+    <% content.testimonials.each do |testimonial| %>
+      <div class="testimonial" style="background-image: url(<%= testimonial.image %>)">
+        <div class="container">
+          <blockquote>
+            <%= testimonial.text %><br /><strong>- <%= testimonial.name %></strong>
+          </blockquote>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
 <div class="event-grid">
   <% data.events.sort_by { |c, e| Date.parse(e.date) }.reverse.each do |city, event| %>
     <% if event %>
