@@ -1,4 +1,19 @@
 body>header {
+
+  h1 {
+    float: left;
+    margin-bottom: 0;
+    a {
+      color: #FFFFFF;
+      line-height: 84px;
+
+      canvas {
+        float: left;
+        margin-right: .5em;
+      }
+    }
+  }
+
   background: $darker-gray;
   .container {
     padding: 1em 0;
@@ -16,6 +31,41 @@ body>header {
     width: 200px;
     height: auto;
   }
+}
+
+#testimonials {
+  position: relative;
+  background: #FFF;
+  padding-bottom: 2.5em;
+  .slick-slider {
+    margin-bottom: 0;
+  }
+
+  .testimonial {
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .container {
+    position: relative;
+    min-height:      500px;
+  }
+
+  blockquote {
+    position:   absolute;
+    left:       0;
+    bottom:     1em;
+    width:      60%;
+    padding:    1em;
+    background: rgba(255, 255, 255, .7);
+    color:      #000000;
+    line-height: 1.9em;
+    border:      0;
+    strong {
+      display:    block;
+      text-align: right
+    }
+  }
+
 }
 
 .event-grid {

@@ -1,0 +1,29 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<% if defined?(event) %>
+  <meta name="description" content="<%= event.meta.description %>">
+  <meta name="keywords" content="<%= event.meta.keywords.join(', ') %>">
+<% else %>
+  <meta name="description" content="<%= data.content.meta.description %>">
+  <meta name="keywords" content="<%= data.content.meta.keywords.join(', ') %>">
+<% end %>
+<title>
+  <% if defined?(event) %>
+    <%= event.city %> |
+  <% end %>
+  <% if current_page.data.title %>
+    <%= current_page.data.title %> |
+  <% end %>
+  ROSSConf
+</title>
+<link href="apple-touch-icon-152x152-precomposed.png" rel="apple-touch-icon" sizes="152x152" />
+<link href="apple-touch-icon-144x144-precomposed.png" rel="apple-touch-icon" sizes="144x144" />
+<link href="apple-touch-icon-114x114-precomposed.png" rel="apple-touch-icon" sizes="114x114" />
+<link href="apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon" sizes="72x72" />
+<link href="apple-touch-icon-precomposed.png" rel="apple-touch-icon" />
+<link href="/favicon.gif" rel="shortcut icon" />
+<link href="/favicon.gif" rel="icon" />
+<%= stylesheet_link_tag "normalize", "all" %>
+
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.8/slick.css"/>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.8/slick-theme.css"/>

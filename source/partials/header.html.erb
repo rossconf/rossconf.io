@@ -1,0 +1,24 @@
+<header>
+  <div class="container">
+    <h1>
+      <a href="/">
+        ROSSConf <% if defined?(event) %>
+          <%= event.city %>
+        <% end %>
+        <% if defined?(current_article) || is_blog_article? %>
+          - Blog
+        <% elsif current_page.data.title %>
+          :<%= current_page.data.title %>
+        <% end %>
+      </a>
+    </h1>
+
+    <nav class="main">
+      <ul>
+        <li class="nav-link"><%= link_to "Blog", "/blog" %></li>
+        <li class="nav-link"><%= link_to "Contact", "/#footer" %></li>
+        <li class="nav-link"><%= link_to "CoC", "/#footer" %></li>
+      </ul>
+    </nav>
+  </div>
+</header>

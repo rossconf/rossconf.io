@@ -5,8 +5,24 @@
     border: 1px solid #DCDCDC;
     margin: 2em 0;
 
-    h2 {
-      color: #454545;
+    header {
+      margin: -1.5em -1.5em 2em -1.5em;
+      padding: 1.5em;
+      background-position: 50% 50%;
+      background-size:     cover;
+
+      h2 {
+        color: #454545;
+        background: rgba(255, 255, 255, .8);
+        margin: 5em 0 1.5em -1.5em;
+        padding: .5em 0 .5em 1.5em;
+      }
+    }
+
+    small {
+      display: block;
+      text-align: right;
+      font-size: .8em;
     }
 
     a {
@@ -15,6 +31,34 @@
 
     .meta {
       font-size: .8em;
+    }
+  }
+
+  .blog-list {
+    * { font-size: 1em; }
+    article {
+      position: relative;
+      width: 44%;
+      margin: 2em 3%;
+      float: left;
+      min-height: 470px;
+    }
+    header {
+      min-height: 190px;
+    }
+    h2 {
+      font-size: 1.5em;
+      margin: 0;
+      position: absolute;
+      bottom:  1em;
+      left: 1em;
+      right: 1em;
+      padding: 1em .5em;
+    }
+    small {
+      position: absolute;
+      bottom: 1.5em;
+      right: 1.5em;
     }
   }
 }
