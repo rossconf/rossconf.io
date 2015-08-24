@@ -18,7 +18,7 @@ activate :directory_indexes
 activate :blog do |blog|
   blog.prefix  = "blog"
   blog.layout  = "blog"
-  blog.permalink = "{year}-{month}/{title}"
+  blog.permalink = "{year}-{month}/{title}/index.html"
 end
 
 configure :development do
