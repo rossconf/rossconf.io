@@ -8,7 +8,8 @@
 
     <div class="container">
       <article>
-        <header style="background-image: url(/blog/<%= current_article.date.year %>-<%= current_article.date.strftime('%m') %>-<%= current_article.slug %>/header.jpg)">
+        <% directory = "#{current_article.date.year}-#{current_article.date.strftime('%m')}-#{current_article.slug}" %>
+        <header style="background-image: url(/blog/<%= directory %>/header.png); background-image: url(/blog/<%= directory %>/header.jpg)">
           <% if current_page.data.title %>
             <h2><%= current_page.data.title %></h2>
           <% end %>
