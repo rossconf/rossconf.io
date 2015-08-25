@@ -1,22 +1,22 @@
 ---
-title: Meet our speakers – Piotr Solnica
-date: 2015/08/25
-author: Floor
-slug: meet-our-speakers-piotr
+title: Meet our speakers – André Arko
+date: 2015/08/24
+author: Laura
+slug: meet-our-speakers-andre
 ---
 
-We decided to do short interviews with all of our ROSSConf Berlin speakers, so you can get to know them better. Meet [Piotr Solnica](https://twitter.com/_solnic_), the maintainer of [Ruby Object Mapper](http://rom-rb.org/) - an open-source persistence and mapping toolkit for Ruby.
+To make the best out of the few weeks we have left before we kick off ROSSConf Berlin, we decided to do short interviews with all of our speakers, so you can get to know them better. Meet [André Arko](https://twitter.com/indirect) – maintainer of [Bundler](http://bundler.io).
 
 #### How did you get into Ruby?
-I saw Ruby for the first time around 2003 as a couple of plugins for the media player that I used back then were written in Ruby. I thought “looks cool” and learned some basic syntax. Then I started my first job but that was mostly PHP and some Java. Over time I got really tired of PHP and decided to switch to…Python. I started learning it, got pretty far and enjoyed it but then one day my friend asked me “hey, since you’re into web-development, did you check out Ruby on Rails?”. Few months later I started my first job as a ruby/rails developer, that was in 2007.
+I became interested in Ruby while I was studying computer science in 2004—my university had a very small CS department, and only used C++. I was very frustrated by C++, and stumbled across the first edition of Programming Ruby posted online. I read the entire book, and then found The Ruby Way, and read that entire book, too. A few months later, I convinced some friends to drive for 3 hours to attend RubyConf 2005 with me. I’ve been doing Ruby (along with lots of other things! but at least some Ruby) ever since.
 
 #### What do you like best about working on Open Source Software? And what do you like least?
-I like when somebody finds my projects helpful, this always motivates me a lot. The least favorite part is the constant lack of time to do all the things I’d like to do, especially when it comes to supporting users of my projects.
+My favorite thing about open source is the moment when you discover that your work has helped someone else—my least favorite part is feeling obligated to give support to those other people because your work is NOT helping them.
 
 #### Any side project you are currently working on?
-Yes. I decided to write a book about my approach to Ruby and web-development. First step is to build a custom stack built on top of Roda and ROM toolkits.
+Bundler is actually a side project! 😬 Along with Bundler, I’m mostly working on [Ruby Together](https://rubytogether.org/), a non-profit company to fund developer work on Ruby open source projects. As a side-side-side project, I’m working with Bundler core member @segiddins on a GitHub bot that manages pull requests, guaranteeing that every merge to master is always a green build.
 
 #### Personal life hack or tool you couldn't do without?
-Kanbanflow. It’s an online kanban board with a builtin pomodoro timer. I can’t live without it. I use it to manage my client work, OSS work and various personal todos.  
+Probably my iPhone, followed closely by OmniFocus. If I don’t write things down, I never remember them!  
 
-_You can come hack on Ruby Object Mapper with Piotr at ROSSConf Berlin. [Get your ticket](/event/berlin/#tickets) if you haven't done so yet!_
+_You can come hack with André on Bundler at ROSSConf Berlin. [Get your ticket](/event/berlin/#tickets) if you haven't done so yet!_
