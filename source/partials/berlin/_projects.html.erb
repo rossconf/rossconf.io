@@ -4,7 +4,7 @@
     <% projects.each do |project| %>
       <div class="l_cell-row project">
         <div class="l_image-cell">
-          <%= image_tag project.maintainer.image_url, alt: project.maintainer.name %>
+          <%= image_tag project.maintainer.image_url, alt: project.maintainer.name, class: "image-round" %>
         </div>
         <div class="l_text-cell">
           <div class="maintainer-container">
@@ -18,7 +18,7 @@
                 <% %w(twitter github).each do |social| %>
                   <% unless mtr[social].nil? %>
                     <li class="social-social">
-                      <% link_to "https://#{social}.com/#{mtr.send(social)}" do %>
+                      <% link_to "https://#{social}.com/#{mtr.send(social)}", class: social do %>
                         <i class="icon-<%= social %>"></i>
                       <% end %>
                     </li>

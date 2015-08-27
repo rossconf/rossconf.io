@@ -1,5 +1,6 @@
 past: true
 city: Vienna
+slug: vienna
 header: /images/header-bg.jpg
 header_front: /images/header-bg.jpg
 title: Vienna's first Ruby Open Source Software Conference

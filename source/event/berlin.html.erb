@@ -28,7 +28,7 @@ layout: berlin
   </div>
 </section>
 
-<%= partial "partials/berlin/projects",  locals: { projects: event.projects } %>
+<%= partial "partials/#{event.slug}/projects",  locals: { projects: event.projects } %>
 
 <%= partial "partials/tickets",  locals: { event: event } %>
 
