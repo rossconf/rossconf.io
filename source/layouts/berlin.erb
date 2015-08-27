@@ -11,11 +11,9 @@
       <meta name="keywords" content="<%= data.content.meta.keywords.join(', ') %>">
     <% end %>
     <title>
-      <% if defined?(event) %>
-        <%= event.city %> |
-      <% end %>
-      <% if current_page.data.title %>
-        <%= current_page.data.title %> |
+      <%= data.events.berlin.city %> |
+      <% if title = current_page.data.title %>
+        <%= title %> |
       <% end %>
       ROSSConf
     </title>
@@ -26,7 +24,7 @@
     <link href="apple-touch-icon-precomposed.png" rel="apple-touch-icon" />
     <link href="/favicon.gif" rel="shortcut icon" />
     <link href="/favicon.gif" rel="icon" />
-    <%= stylesheet_link_tag "normalize", "all" %>
+    <%= stylesheet_link_tag "normalize", "berlin" %>
   </head>
   <body class="<%= page_classes %>">
     <header>
