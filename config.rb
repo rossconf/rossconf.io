@@ -34,9 +34,11 @@ configure :build do
   end
 end
 
-data.events.each do |city, event|
-  proxy "event/#{city.downcase}/index.html", "/event.html", :locals => { :event => event }
-end
+# We'll leave this here as an example of how to proxy something
+#
+#data.events.each do |city, event|
+  #proxy "event/#{city.downcase}/index.html", "/event.html", :locals => { :event => event }
+#end
 
 configure :development do
   activate :livereload
