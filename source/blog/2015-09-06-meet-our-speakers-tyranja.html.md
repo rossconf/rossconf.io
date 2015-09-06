@@ -5,7 +5,7 @@ author: Floor
 slug: meet-our-speakers-tyranja
 ---
 
-Forlast in our interview series with the ROSSConf Berlin speakers: ['tyranja'](https://github.com/tyranja), ho works on [the Speakerinnen project](http://speakerinnen.org/) - which aims to increase the visibility and participation of women at (but not limited to) conferences, panels and talk shows.
+For last in our interview series with the ROSSConf Berlin speakers: ['tyranja'](https://github.com/tyranja), who works on [the Speakerinnen project](http://speakerinnen.org/) - which aims to increase the visibility and participation of women at (but not limited to) conferences, panels and talk shows.
 
 #### How did you get into Ruby?
 I got in Ruby with the help of the Rails Girls I went to the second Rails Girls workshop that was organized in Berlin years ago.
