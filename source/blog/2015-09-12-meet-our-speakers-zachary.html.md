@@ -5,8 +5,8 @@ author: Sebastian
 slug: meet-our-speakers-zachary
 ---
 
-Last but not least in our series of interviews with our speakers: Zachary
-Who is and has committed to Sinatra, mruby, rails and, the project he'll present, Ruby.
+Last but not least in our series of interviews with our speakers: Zachary,
+who is and has committed to Sinatra, mruby, rails and, the project he will present at ROSSConf Berlin, Ruby.
 
 #### How did you get into Ruby?
 
