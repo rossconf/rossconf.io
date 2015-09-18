@@ -42,7 +42,7 @@ projects:
 
 
   - name: Panamax
-    image_url: http://panamax.io/assets/images/about_ctl/logo_panamax.svg
+    image_url: /images/projects/panamax-logo.png
     description: "[Panamax](http://panamax.io) makes creating Docker applications easy. It provides a friendly interface for users of Docker, Fleet, CoreOS, Kubernetes, and supports remote application deployments to cloud providers."
     maintainer:
       name: Laura Frank
