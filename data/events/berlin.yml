@@ -143,6 +143,9 @@ sponsors:
   - name: Wooga
     url: http://www.wooga.com/
     image: '/images/sponsors/wooga.png'
+  - name: twilio
+    url: https://www.twilio.com
+    image: '/images/sponsors/twilio.png'
   - name: Engine Yard
     url: 'https://www.engineyard.com/'
     image: '/images/sponsors/engineyard.png'
