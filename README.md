@@ -17,8 +17,8 @@ If you'd like to improve http://rossconf.io, add an event or fix a bug we are ha
   * [Ruby](https://www.ruby-lang.org/) and [Bundler](http://bundler.io/)
   * [Bower](http://bower.io/)
 
-This site is built with [middleman](http://middlemanapp.com)
-To run a local server that watches for changes from your command line
+This site is built with [middleman](http://middlemanapp.com).  
+To run a local server that watches for changes from your command line, run:
 
 ```
 $ bundle install
