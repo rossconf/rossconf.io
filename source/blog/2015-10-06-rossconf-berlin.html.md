@@ -13,7 +13,7 @@ With [Travis CI](https://travis-ci.org/)'s support we were able to have Zachary 
 
 We also scheduled a little lightning talk by Sonja Heinen ([@sonjaheinen](http://www.twitter.com/sonjaheinen)) from RubyIssue(s), to help participants continue working on Open Source issues after ROSSConf. Sonja and Robin had even send out a ROSSConf themed RubyIssue(s) ... eh ... [issue](https://rubyissues.ongoodbits.com/2015/09/26/6). Did you know that there are more than 238,000 open Ruby issues on GitHub?
 
-We were excited to see last edition's speakers Piotr Szotkowski ([@chastell](http://www.twitter.com/)) and Arne Brasseur ([@plexus](http://www.twitter.com/)) working on [Ruby Object Mapper](http://www.twitter.com/rom_rb)) together.
+We were excited to see last edition's speakers Piotr Szotkowski ([@chastell](http://www.twitter.com/)) and Arne Brasseur ([@plexus](http://www.twitter.com/)) working on [Ruby Object Mapper](http://www.twitter.com/rom_rb) together.
 
 #### The Projects
 
@@ -56,7 +56,7 @@ Some feedback from our attendees and lurkers on Twitter:
 
 #### Behind the scenes
 
-The team used Slack to organize themselves and the wonderful volunteers for Berlin, Sara Regan and Gosia Ciesla. Wondering why our Twitter pictures looked so good? Michael Berger ([@ovis_arjes](http://www.twitter.com/ovis_arjes) sent them to us in real-time via camera Wi-Fi. Cause you know, technology. You can [find a selection of his shots on Facebook](https://www.facebook.com/media/set/?set=a.630457850428899.1073741829.544720819002603&type=3).
+The team used Slack to organize themselves and the wonderful volunteers for Berlin, Sara Regan and Gosia Ciesla. Wondering why our Twitter pictures looked so good? Michael Berger ([@ovis_arjes](http://www.twitter.com/ovis_arjes)) sent them to us in real-time via camera Wi-Fi. Cause you know, technology. You can [find a selection of his shots on Facebook](https://www.facebook.com/media/set/?set=a.630457850428899.1073741829.544720819002603&type=3).
 
 Where would we have been without the support of Wooga and Maike? Wooga took care of breakfast, fruit, coffee and the likes, in addition to hosting us hacking bunch. Also Codeship, Twilio and Engine Yard (anyone else still dreaming about that amazing dinner?) helped us create the best possible experience for our attendees, and - not unimportant - helped keep the conference free of charge.
 
