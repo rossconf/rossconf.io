@@ -61,3 +61,9 @@ configure :build do
   activate :asset_hash
   activate :relative_assets
 end
+
+helpers do
+  def blog_post_image(article, name)
+    "/blog/#{article.date.year}-#{article.date.strftime('%m')}-#{article.slug}/#{name}"
+  end
+end
