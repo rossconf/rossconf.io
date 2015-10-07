@@ -9,7 +9,7 @@ Seventy people came together last September weekend to celebrate and work on Rub
 
 #### The Program
 
-With [Travis CI](https://travis-ci.org/)'s support we were able to have Zachary Scott ([@\_zzak](http://www.twitter.com/\_zzak)), Laura Frank ([@rhein_wein](http://www.twitter.com/rhein_wein)), André Arko ([@indirect](http://www.twitter.com/indirect)), Piotr Solnica ([@\_solnic\_](http://www.twitter.com/\_solnic\_)) and 'Tyranja' ([@\_tyranja\_](http://www.twitter.com/\_tyranja\_)) present the projects they (co)maintain. Being: Ruby, Panamax, Bundler, Ruby Object Mapper and the Speakerinnen project.   
+With [Travis CI](https://travis-ci.org/)'s support we were able to have Zachary Scott ([@\_zzak](http://www.twitter.com/_zzak)), Laura Frank ([@rhein_wein](http://www.twitter.com/rhein_wein)), André Arko ([@indirect](http://www.twitter.com/indirect)), Piotr Solnica ([@\_solnic\_](http://www.twitter.com/_solnic_)) and 'Tyranja' ([@\_tyranja\_](http://www.twitter.com/_tyranja_)) present the projects they (co)maintain. Being: Ruby, Panamax, Bundler, Ruby Object Mapper and the Speakerinnen project.   
 
 We also scheduled a little lightning talk by Sonja Heinen ([@sonjaheinen](http://www.twitter.com/sonjaheinen)) from RubyIssue(s), to help participants continue working on Open Source issues after ROSSConf. Sonja and Robin had even send out a ROSSConf themed RubyIssue(s) ... eh ... [issue](https://rubyissues.ongoodbits.com/2015/09/26/6). Did you know that there are more than 238,000 open Ruby issues on GitHub?
 
