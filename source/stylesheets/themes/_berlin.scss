@@ -105,6 +105,12 @@ img.image-round {
   -webkit-filter: grayscale(100%);
 }
 
+img.image-round:hover {
+  border-radius: 50%;
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+}
+
 .button {
   font-size: 1.2em;
   color: white !important;
@@ -200,4 +206,9 @@ section {
   .container { background-color: transparent; }
 }
 
-
+.job-position {
+  display: block;
+  margin-top: -1.5em;
+  margin-bottom: 1em;
+  font-weight: bold;
+}

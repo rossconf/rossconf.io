@@ -10,7 +10,7 @@ activate :deploy do |deploy|
   deploy.commit_message = commit_message
 end
 
-set :site_name,      "ROSSConf"
+set :site_name,      "ROSS conf"
 set :analytics_code, "UA-60869001-1"
 
 activate :directory_indexes
@@ -24,7 +24,6 @@ end
 configure :development do
   activate :disqus do |d|
     d.shortname = "rossconfdev"
-
   end
 end
 
