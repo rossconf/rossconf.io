@@ -10,7 +10,9 @@
           <div class="l_text-cell">
             <h3 class="subhead">
               <%= person.name %>
+
             </h3>
+            <small class="job-position"><%= person.position %></small>
             <% %w(twitter github).each do |social|  %>
               <% if person.send(social) %>
                 <span class="social-link">

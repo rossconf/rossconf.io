@@ -1,0 +1,86 @@
+city: ROSS conf Amsterdam
+slug: amsterdam
+header: /images/eventheader/amsterdam.jpg
+header_front: /images/eventheader/amsterdam.jpg
+tagline: The European Ruby Open Source Software conference
+date_location: May 11-12, 2018 @ TBD
+date: 12-05-2018
+description: '<p>ROSS conf Amsterdam gives open source software maintainers the platform to introduce their project to an audience of first time as well as existing contributors. After 15 minute introductions to the project, pressing issues and requests, the conference day is reserved for hands-on programming (or contributing through updating documentation or adding artwork!) and pairing with the maintainers. To conclude the hackathon the maintainers present data on bugs fixed, and pull requests merged.</p>'
+sponsoring_email: 'hello@rossconf.io'
+eventbrite_link: //www.eventbrite.co.uk/e/ross-conf-amsterdam-tickets-43969456829
+
+meta:
+  description: Amsterdam's next Ruby Open Source Software Conference and Hackathon
+  keywords:
+    - ruby
+    - OSS
+    - Ruby Open Source
+    - open source berlin
+    - bundler
+
+social:
+  twitter: ROSSconf
+  facebook: https://www.facebook.com/rossconf
+
+location:
+  map_link: 'https://www.google.nl/maps/@52.3680452,4.8989132,14.13z?hl=en'
+  address: 'Amsterdam'
+
+coc: "You can reach out to hello@rossconf.io and approach each of our team members at the event."
+
+###################### PROJECTS ##########################
+projects:
+  - name: exercism
+    image_url: /images/projects/exercism_color.png
+    description: "[exercism.io](http://exercism.io/) is written in Ruby using the Sinatra web framework and primarily maintained by [Katrina Owen](https://github.com/kytrinyx), who is a polyglot developer and Ruby Hero award winner who accidentally became a developer while pursuing a degree in molecular biology. She cares deeply about open source and contributes to several projects outside of exercism."
+
+  - name: RVM
+    image_url: /images/projects/rvm_color.png
+    description: "[RVM](http://rvm.io/) was the first version manager for installing Ruby, to solve problems like switching Ruby versions or separating project gems. Today RVM is still leading in the area of installing and switching Ruby, yet Papis is working on a version 2.0."
+
+  - name: Homebrew
+    image_url: /images/projects/homebrew.png
+    description: "[Homebrew](https://brew.sh/) is package manager for macOS written in Ruby and will be represented by core team member [Alyssa Ross](https://github.com/alyssais)."
+
+###################### SCHEDULE ##########################
+
+schedule:
+  "00:00 - 23:59": TBD
+
+###################### TEAM ##########################
+
+team:
+  - name: Rayta van Rijswijk
+    position: Developer at Young Capital, Organizer Amsterdam.rb
+    image_url: /images/team/rayta.jpg
+    twitter: raytalks
+    github: raytalks
+
+  - name: Floor Drees
+    position: Developer Advocate at Phusion Passenger
+    image_url: /images/team/floor.jpg
+    twitter: FloorDrees
+    github: floord
+
+  - name: Lieke Boon
+    position: Community Manager at GitHub
+    image_url: /images/team/lieke.jpg
+    twitter: Lieke2208
+    github: Lieke22
+
+  - name: Sebastian Gräßl
+    position: Software Engineer at Red Hat
+    image_url: /images/team/sebastian.jpg
+    twitter: bastilian
+    github: bastilian
+
+###################### SPONSORS ##########################
+
+sponsors:
+  - name: Phusion
+    url: 'https://www.phusionpassenger.com/'
+    image: '/images/sponsors/phusion.png'
+
+  - name: GitHub
+    url: 'https://github.com'
+    image: '/images/sponsors/GitHub_Logo.png'
