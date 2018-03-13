@@ -6,7 +6,7 @@ slug: meet-our-speakers-zachary
 ---
 
 Last but not least in our series of interviews with our speakers: Zachary,
-who is and has committed to Sinatra, mruby, rails and, the project he will present at ROSSConf Berlin, Ruby.
+who is and has committed to Sinatra, mruby, rails and, the project he will present at ROSS conf Berlin, Ruby.
 
 #### How did you get into Ruby?
 
@@ -32,4 +32,4 @@ implementation that's still Just Ruby.
 
 Always Be Shipping.
 
-_Come hack on Ruby with Zachary at ROSSConf Berlin. [Get your ticket](/event/berlin/#tickets) if you haven't done so yet!_
+_Come hack on Ruby with Zachary at ROSS conf Berlin. [Get your ticket](/event/berlin/#tickets) if you haven't done so yet!_

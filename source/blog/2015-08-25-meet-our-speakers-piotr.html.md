@@ -5,7 +5,7 @@ author: Floor
 slug: meet-our-speakers-piotr
 ---
 
-We decided to do short interviews with all of our ROSSConf Berlin speakers, so you can get to know them better. Meet [Piotr Solnica](https://twitter.com/_solnic_), the maintainer of [Ruby Object Mapper](http://rom-rb.org/) - an open-source persistence and mapping toolkit for Ruby.
+We decided to do short interviews with all of our ROSS conf Berlin speakers, so you can get to know them better. Meet [Piotr Solnica](https://twitter.com/_solnic_), the maintainer of [Ruby Object Mapper](http://rom-rb.org/) - an open-source persistence and mapping toolkit for Ruby.
 
 #### How did you get into Ruby?
 I saw Ruby for the first time around 2003 as a couple of plugins for the media player that I used back then were written in Ruby. I thought “looks cool” and learned some basic syntax. Then I started my first job but that was mostly PHP and some Java. Over time I got really tired of PHP and decided to switch to…Python. I started learning it, got pretty far and enjoyed it but then one day my friend asked me “hey, since you’re into web-development, did you check out Ruby on Rails?”. Few months later I started my first job as a ruby/rails developer, that was in 2007.
@@ -19,4 +19,4 @@ Yes. I decided to write a book about my approach to Ruby and web-development. Fi
 #### Personal life hack or tool you couldn't do without?
 Kanbanflow. It’s an online kanban board with a builtin pomodoro timer. I can’t live without it. I use it to manage my client work, OSS work and various personal todos.  
 
-_You can come hack on Ruby Object Mapper with Piotr at ROSSConf Berlin. [Get your ticket](/event/berlin/#tickets) if you haven't done so yet!_
+_You can come hack on Ruby Object Mapper with Piotr at ROSS conf Berlin. [Get your ticket](/event/berlin/#tickets) if you haven't done so yet!_
