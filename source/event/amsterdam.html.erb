@@ -1,7 +1,9 @@
 ---
-layout: berlin
+layout: event
+city: Amsterdam
 ---
 <% event = data.events.amsterdam %>
+
 <header>
   <% if event.header %>
     <%= image_tag event.header, class: "header-image", alt: event.header_alt %>
@@ -28,7 +30,7 @@ layout: berlin
   </div>
 </section>
 
-<%= partial "partials/#{event.slug}/projects",  locals: { projects: event.projects } %>
+<%= partial "partials/projects",  locals: { projects: event.projects } %>
 
 <%= partial "partials/tickets",  locals: { event: event } %>
 
@@ -37,6 +39,7 @@ layout: berlin
     <%= partial "extras/#{event.city.downcase}/#{extra}" %>
   <% end %>
 <% end %>
+
 <%= partial "partials/schedule", locals: { schedule: event.schedule } %>
 <%= partial "partials/team",     locals: { team: event.team } %>
 <%= partial 'partials/coc.html', locals: { coc: event.coc } %>

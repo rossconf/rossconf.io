@@ -11,7 +11,7 @@
       <meta name="keywords" content="<%= data.content.meta.keywords.join(', ') %>">
     <% end %>
     <title>
-      <%= data.events.vienna.city %> |
+      <%= current_page.data.city %> |
       <% if title = current_page.data.title %>
         <%= title %> |
       <% end %>
@@ -24,7 +24,7 @@
     <link href="apple-touch-icon-precomposed.png" rel="apple-touch-icon" />
     <link href="/favicon.gif" rel="shortcut icon" />
     <link href="/favicon.gif" rel="icon" />
-    <%= stylesheet_link_tag "normalize", "vienna" %>
+    <%= stylesheet_link_tag "normalize", "berlin" %>
   </head>
   <body class="<%= page_classes %>">
     <header>
