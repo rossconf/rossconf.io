@@ -1,12 +1,14 @@
 ###################### META ##########################
 meta:
-  description: ROSS conf is a Ruby mini-conference meets hackathon. Join its second edition in Berlin on September 26th.
+  description: ROSS conf is a Ruby mini-conference meets hackathon. Join its third edition in Amsterdm on May 11th-12th.
   keywords:
     - ruby
     - OSS
     - Ruby Open Source
-    - open source vienna
+    - open source
+    - vienna
     - berlin
+    - amsterdam
 
 pages:
   main:
