@@ -4,8 +4,6 @@ Ruby Open Source Software ([ROSS conf](http://rossconf.io)) is a one day confere
 
 Five maintainers or main contributors to major Open Source projects will get the chance to recruit highly motivated developers to contribute to their project during the hackathon part of the conference.
 
-All ROSS conf material and resources are [available in their own repo](https://github.com/rossconf/organizers-toolkit), for anyone to use and organize their own local chapter. The logo is an [Open Source project on its own](https://github.com/rossconf/logo/blob/master/README.md). And the website can be found at http://www.rossconf.io.
-
 # Working on the site
 
 If you'd like to improve http://rossconf.io, add an event or fix a bug we are happy to get your Pull Request (see **Contributing** for more on that). To give you a jumpstart here is an intro to how the site works.
@@ -171,5 +169,4 @@ Please open an issue.
 
 # Code of Conduct
 
-This project adheres to the [Open Code of Conduct][code-of-conduct]. By participating, you are expected to honor this code.
-[code-of-conduct]: http://todogroup.org/opencodeofconduct/#ROSSconf/hello@rossconf.io
+This project adheres to the [Open Code of Conduct](http://todogroup.org/opencodeofconduct/#ROSSconf/hello@rossconf.io). By participating, you are expected to honor this code.
