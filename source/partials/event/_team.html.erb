@@ -1,18 +1,23 @@
+<% theme ||= "dark" %>
 <% if team %>
-  <section class="team" id="team">
+  <% show_description = team.all? { |p| p.position.present? } %>
+  <section class="team <%= theme %>" id="team">
     <div class="container">
       <h2>Team</h2>
       <% team.each do |person| %>
-        <div class="l_cell">
-          <div class="l_image-cell">
-           <%= image_tag person.image_url, class: "image-round", alt: person.name %>
+        <div class="item">
+          <div class="image">
+            <%= image_tag person.image_url, class: "image-round", alt: person.name %>
           </div>
-          <div class="l_text-cell">
-            <h3 class="subhead">
-              <%= person.name %>
-
-            </h3>
-            <small class="job-position"><%= person.position %></small>
+          <h3 class="title">
+            <%= person.name %>
+          </h3>
+          <% if show_description %>
+          <div class="description">
+            <small><%= person.position %></small>
+          </div>
+          <% end %>
+          <div class="footer">
             <% %w(twitter github).each do |social|  %>
               <% if person.send(social) %>
                 <span class="social-link">
@@ -22,8 +27,6 @@
                 </span>
               <% end %>
             <% end %>
-            <div class="body">
-            </div>
           </div>
         </div>
       <% end %>

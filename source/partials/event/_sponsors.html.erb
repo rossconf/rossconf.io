@@ -1,0 +1,17 @@
+<% if sponsors %>
+  <section class="sponsors" id="sponsors">
+    <div class="container">
+      <h2>Partners</h2>
+      <% sponsors.each do |sponsor| %>
+        <a href="<%= sponsor.url %>" target="_blank" class="sponsor <%= 'gold' if sponsor.gold %>">
+          <img src="<%= sponsor.image %>" />
+        </a>
+      <% end %>
+      <% if event.sponsoring_email.present? %>
+      <p class="sponsoring">
+        <strong><a href="mailto:<%= event.sponsoring_email %>?subject=Sponsoring ROSS conf <%= event.city %>">Want to help us out as well?</a></strong>
+      </p>
+      <% end %>
+    </div>
+  </section>
+<% end %>

@@ -1,10 +1,10 @@
-city: ROSS conf Amsterdam
+city: Amsterdam
 slug: amsterdam
 header: /images/eventheader/amsterdam.jpg
 header_front: /images/eventheader/amsterdam.jpg
 tagline: The European Ruby Open Source Software conference
 date_location: May 11-12, 2018 @ TBD
-date: 12-05-2018
+date: 11-05-2018
 description: '<p>ROSS conf Amsterdam gives open source software maintainers the platform to introduce their project to an audience of first time as well as existing contributors. After 15 minute introductions to the project, pressing issues and requests, the conference day is reserved for hands-on programming (or contributing through updating documentation or adding artwork!) and pairing with the maintainers. To conclude the hackathon the maintainers present data on bugs fixed, and pull requests merged.</p>'
 sponsoring_email: 'hello@rossconf.io'
 eventbrite_link: //eventbrite.co.uk/tickets-external?eid=43969456829&ref=etckt
@@ -15,7 +15,7 @@ meta:
     - ruby
     - OSS
     - Ruby Open Source
-    - open source berlin
+    - open source amsterdam
     - bundler
 
 social:
@@ -43,16 +43,14 @@ projects:
     description: "[Homebrew](https://brew.sh/) is package manager for macOS written in Ruby and will be represented by core team member [Alyssa Ross](https://github.com/alyssais)."
 
   - name: Traveling Ruby
-    #image_url: /images/projects/travelingruby.png
+    image_url: /images/projects/travelingruby.png
     description: "[Traveling Ruby](https://phusion.github.io/traveling-ruby) supplies self-contained, "portable" Ruby binaries that can run on any Linux distribution and OS X machine (and Windows with some caveats)."
     
   - name: Rails Girls
     #image_url: /images/projects/railsgirls.png
     description: "After an introduction by one of [Rails Girls](https://github.com/railsgirls/railsgirls/)' initiators, [Linda Liukas](https://twitter.com/lindaliukas), aim is to separate out a dynamic events app."
 
-
 ###################### SCHEDULE ##########################
-
 Friday May 11:
   "18:00 - 19:00": Start pre-event
   "19:00 - 20:30": Host, maintainer talks
@@ -70,7 +68,6 @@ Saturday May 12:
   "19:30 - 20:30": Maintainer presentations, closing notes
 
 ###################### TEAM ##########################
-
 team:
   - name: Rayta van Rijswijk
     position: Developer at Young Capital, Organizer Amsterdam.rb
@@ -97,7 +94,6 @@ team:
     github: bastilian
 
 ###################### SPONSORS ##########################
-
 sponsors:
   - name: Phusion
     url: 'https://www.phusionpassenger.com/'

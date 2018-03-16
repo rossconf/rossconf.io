@@ -6,7 +6,7 @@
   <body class="<%= page_classes %>">
     <%= partial "partials/header" %>
 
-    <div class="container">
+    <div class="container blog">
       <article>
         <% directory = "#{current_article.date.year}-#{current_article.date.strftime('%m')}-#{current_article.slug}" %>
         <header style="background-image: url(/blog/<%= directory %>/header.png); background-image: url(/blog/<%= directory %>/header.jpg)">

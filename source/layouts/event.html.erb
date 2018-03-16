@@ -1,17 +1,13 @@
+<% event = data.events[current_page.data.event] %>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <% if defined?(event) %>
-      <meta name="description" content="<%= event.meta.description %>">
-      <meta name="keywords" content="<%= event.meta.keywords.join(', ') %>">
-    <% else %>
-      <meta name="description" content="<%= data.content.meta.description %>">
-      <meta name="keywords" content="<%= data.content.meta.keywords.join(', ') %>">
-    <% end %>
+    <meta name="description" content="<%= event.meta.description %>">
+    <meta name="keywords" content="<%= event.meta.keywords.join(', ') %>">
     <title>
-      <%= current_page.data.city %> |
+      <%= event.city %> |
       <% if title = current_page.data.title %>
         <%= title %> |
       <% end %>
@@ -24,26 +20,14 @@
     <link href="apple-touch-icon-precomposed.png" rel="apple-touch-icon" />
     <link href="/favicon.gif" rel="shortcut icon" />
     <link href="/favicon.gif" rel="icon" />
-    <%= stylesheet_link_tag "normalize", "berlin" %>
+    <%= stylesheet_link_tag "normalize", "event", event.city.downcase %>
+    <%= yield_content :assets %>
   </head>
   <body class="<%= page_classes %>">
-    <header>
-      <div class="container">
-        <a href="/"><%= image_tag "basic_logo.png", alt: 'ROSSconf' %></a>
-
-        <nav class="main">
-          <ul>
-            <li class="nav-link"><%= link_to "Blog", "/blog" %></li>
-            <li class="nav-link"><%= link_to "Contact", "/#footer" %></li>
-            <li class="nav-link"><%= link_to "CoC", "/#footer" %></li>
-          </ul>
-        </nav>
-
-      </div>
-    </header>
 
     <%= yield %>
 
-    <%= partial "partials/footer" %>
+    <%= partial 'partials/footer' %>
+
   </body>
 </html>

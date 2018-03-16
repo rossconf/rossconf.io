@@ -1,0 +1,18 @@
+<% if projects %>
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <% projects.each do |project| %>
+        <div class="item">
+          <div class="image" style="background-image: url(<%= project.image_url %>)"></div>
+          <h3 class="title">
+            <%= project.name %>
+          </h3>
+          <div class="description">
+              <%= md2(project.description) %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </section>
+<% end %>

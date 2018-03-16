@@ -1,0 +1,161 @@
+body>header {
+
+  h1 {
+    float: left;
+    margin-bottom: 0;
+    a {
+      color: #FFFFFF;
+      line-height: 84px;
+
+      canvas {
+        float: left;
+        margin-right: .5em;
+      }
+    }
+  }
+
+  background: $darker-gray;
+  .container {
+    padding: 1em 0;
+  }
+
+  nav.main {
+    float: right;
+    text-align: right;
+    a {
+      color: #FFF;
+    }
+  }
+
+  img {
+    width: 200px;
+    height: auto;
+  }
+}
+
+#testimonials {
+  position: relative;
+  background: #FFF;
+  padding-bottom: 2.5em;
+  .slick-slider {
+    margin-bottom: 0;
+  }
+
+  .testimonial {
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .container {
+    position: relative;
+    min-height:      500px;
+  }
+
+  blockquote {
+    position:   absolute;
+    left:       0;
+    bottom:     1em;
+    width:      60%;
+    padding:    1em;
+    background: rgba(255, 255, 255, .7);
+    color:      #000000;
+    line-height: 1.9em;
+    border:      0;
+    strong {
+      display:    block;
+      text-align: right
+    }
+  }
+
+}
+
+.event-grid {
+  padding: 2em 2.5em;
+  text-align: center;
+  background: #FFFFFF;
+
+  .event-link {
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+    line-height: 1.5em;
+    @include media($large-screen){
+      margin: 0 2em;
+    }
+
+    .photo {
+      display: inline-block;
+      width: 250px;
+      height: 250px;
+      background: url(/images/header-bg.jpg) 50% 50% no-repeat;
+      border-radius: 50%;
+    }
+
+    a {
+      display: block;
+      text-align: center;
+      font-weight: bold;
+    }
+
+  }
+}
+
+img.image-round {
+  border-radius: 50%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.button {
+  font-size: 1.2em;
+  color: white !important;
+  @include media($mobile) {
+    width: 100%;
+    text-align: center;
+  }
+
+  @include media($tablet) {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+// // background colors from Theme Colors
+// $logocolors:      $salmon      $blue        $white;
+// $headlinecolors:  $white       $white       $dark-gray;
+// $subheadscolors:  $white       $white       $dark-gray;
+// $bodytextcolors:  $white       $darker-gray $dark-gray;
+// $linkcolors:      $darker-gray $white       $darker-gray;
+
+// // Loop through colors and assign them to the sections
+// $length: length($logocolors);
+// @for $i from 1 through $length {
+//   $color: nth($logocolors, $i);
+//   section:nth-child(#{$length}n+#{$i}),
+//   footer:nth-child(#{$length}n+#{$i}) {
+//     background-color: $color;
+
+//     h2 {
+//       color: nth($headlinecolors, $i);
+//     }
+
+//     h3, h4, h5, h6 {
+//       color: nth($subheadscolors, $i);
+//     }
+
+//     p {
+//       color: nth($bodytextcolors, $i);
+//     }
+
+//     a {
+//       color: nth($linkcolors, $i);
+//     }
+//   }
+// }
+
+section {
+  .social-link {
+    a {
+      color: $darker-gray;
+    }
+  }
+}

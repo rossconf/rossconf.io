@@ -1,47 +1,14 @@
 ---
 layout: event
-city: Amsterdam
+event: amsterdam
 ---
 <% event = data.events.amsterdam %>
 
-<header>
-  <% if event.header %>
-    <%= image_tag event.header, class: "header-image", alt: event.header_alt %>
-  <% end %>
-
-  <div class="container">
-    <div class="header-info">
-      <h2 class="header-title"><%= event.city %></h2>
-      <h2 class="header-date"><%= event.tagline %></h2>
-      <strong><%= event.date_location %></strong>
-    </div>
-  </div>
-
-</header>
-
-<%= partial "partials/nav", locals: { event: event } %>
-
-<%= partial 'partials/social', locals: { social: event.social } %>
-
-<section class="intro">
-  <div class="container">
-    <h2><%= event.title %></h2>
-    <%= event.description %>
-  </div>
-</section>
-
-<%= partial "partials/projects",  locals: { projects: event.projects } %>
-
-<%= partial "partials/tickets",  locals: { event: event } %>
-
-<% if event.extras %>
-  <% event.extras.compact.each do |extra| %>
-    <%= partial "extras/#{event.city.downcase}/#{extra}" %>
-  <% end %>
-<% end %>
-
-<%= partial "partials/schedule", locals: { schedule: event.schedule } %>
-<%= partial "partials/team",     locals: { team: event.team } %>
-<%= partial 'partials/coc.html', locals: { coc: event.coc } %>
-<%= partial "partials/location", locals: { location: event.location } %>
-<%= partial "partials/sponsors", locals: { sponsors: event.sponsors, event: event } %>
+<%= partial "partials/event/header",   locals: { event: event } %>
+<%= partial 'partials/event/intro',    locals: { event: event} %>
+<%= partial "partials/event/projects", locals: { projects: event.projects } %>
+<%= partial "partials/event/schedule", locals: { schedule: event.schedule } %>
+<%= partial "partials/event/team",     locals: { team: event.team } %>
+<%= partial 'partials/event/coc',      locals: { coc: event.coc } %>
+<%= partial "partials/event/location", locals: { location: event.location } %>
+<%= partial "partials/event/sponsors", locals: { sponsors: event.sponsors, event: event } %>

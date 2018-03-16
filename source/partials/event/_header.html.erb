@@ -1,0 +1,24 @@
+<header class="hero" style="<%= "background-image: url(#{event.header});" if event.header.present? %>">
+  <div class="overlay"></div>
+  <nav class="main">
+    <ul>
+      <li class="nav-link"><%= link_to "Contact", "#footer" %></li>
+      <li class="nav-link"><%= link_to "Code of Conduct", "#footer" %></li>
+    </ul>
+  </nav>
+  <div class="container header">
+    <div class="event">
+      <h2 class="title">ROSS Conf <%= event.city %></h2>
+      <h2 class="tagline"><%= event.tagline %></h2>
+      <h3 class="date-location"><%= event.date_location %></h3>
+    </div>
+    <% if Date.today < Date.parse(event.date) && event.eventbrite_link.present? %>
+      <div class="signup">
+        <a href="<%= event.eventbrite_link %>" class="button big pink" target="_blank">Register today!</a>
+        <p>
+          <a href="#footer">Or sign up for our newsletter</a>
+        </p>
+      </div>
+    <% end %>
+  </div>
+</header>
