@@ -11,11 +11,11 @@
       <meta name="keywords" content="<%= data.content.meta.keywords.join(', ') %>">
     <% end %>
     <title>
-      <%= current_page.data.city %> |
+      <%= data.events.vienna.city %> |
       <% if title = current_page.data.title %>
         <%= title %> |
       <% end %>
-      ROSS conf
+      ROSSConf
     </title>
     <link href="apple-touch-icon-152x152-precomposed.png" rel="apple-touch-icon" sizes="152x152" />
     <link href="apple-touch-icon-144x144-precomposed.png" rel="apple-touch-icon" sizes="144x144" />
@@ -24,12 +24,12 @@
     <link href="apple-touch-icon-precomposed.png" rel="apple-touch-icon" />
     <link href="/favicon.gif" rel="shortcut icon" />
     <link href="/favicon.gif" rel="icon" />
-    <%= stylesheet_link_tag "normalize", "berlin" %>
+    <%= stylesheet_link_tag "normalize", "vienna" %>
   </head>
   <body class="<%= page_classes %>">
     <header>
       <div class="container">
-        <a href="/"><%= image_tag "basic_logo.png", alt: 'ROSSconf' %></a>
+        <a href="/"><%= image_tag "basic_logo.png", alt: 'ROSSConf' %></a>
 
         <nav class="main">
           <ul>
