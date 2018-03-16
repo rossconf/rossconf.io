@@ -8,4 +8,11 @@ input[type="submit"],
   user-select: none;
   vertical-align: middle;
   white-space: nowrap;
+
+  &.big {
+    @extend %big-button;
+  }
+  &.pink {
+    @extend %pink-button;
+  }
 }

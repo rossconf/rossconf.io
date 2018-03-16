@@ -20,3 +20,13 @@
     opacity: 0.5;
   }
 }
+%big-button {
+  font-size: $h2-font-size;
+}
+%pink-button {
+  color: white;
+  background: linear-gradient(to right, #FE82BE, #EE3AB2);
+  &:hover {
+    background: linear-gradient(to right, #FF96F6, #FA5088);
+  }
+}
