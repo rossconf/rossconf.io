@@ -106,7 +106,9 @@ function ROSSConfLogo(value, width) {
 }
 
 $(document).on('ready', function(){
-  new ROSSConfLogo($('header h1').text().trim(), 100);
+  if($('header h1').length) {
+    new ROSSConfLogo($('header h1').text().trim(), 100);
+  }
 
   $('.testimonials').slick({
     arrows:   false,
