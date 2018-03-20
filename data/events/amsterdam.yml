@@ -51,21 +51,21 @@ projects:
     description: "After an introduction by one of [Rails Girls](https://github.com/railsgirls/railsgirls/)' initiators, [Linda Liukas](https://twitter.com/lindaliukas), aim is to separate out a dynamic events app."
 
 ###################### SCHEDULE ##########################
-Friday May 11:
-  "18:00 - 19:00": Start pre-event
-  "19:00 - 20:30": Host, maintainer talks
-  "20:30 - 21:00": Q&A
-  "20:30 - 21:00": Drinks & Networking
-  
-Saturday May 12:
-  "10:00 - 10:30": Start & coffee
-  "10:30 - 12:00": Break out in groups
-  "12:00 - 13:00": Lunch
-  "13:00 - 15:00": Break out in groups
-  "15:00 - 15:30": Snacks
-  "15:30 - 18:30": Break out in groups
-  "18:30 - 19:30": FOOD
-  "19:30 - 20:30": Maintainer presentations, closing notes
+schedule:
+  Friday May 11:
+    "18:00 - 19:00": Start pre-event
+    "19:00 - 20:30": Host, maintainer talks
+    "20:30 - 21:00": Q&A
+    "20:30 - 21:00": Drinks & Networking
+  Saturday May 12:
+    "10:00 - 10:30": Start & coffee
+    "10:30 - 12:00": Break out in groups
+    "12:00 - 13:00": Lunch
+    "13:00 - 15:00": Break out in groups
+    "15:00 - 15:30": Snacks
+    "15:30 - 18:30": Break out in groups
+    "18:30 - 19:30": FOOD
+    "19:30 - 20:30": Maintainer presentations, closing notes
 
 ###################### TEAM ##########################
 team:

@@ -1,17 +1,16 @@
+<% multi_day ||= false %>
 <% if schedule %>
   <section class="schedule" id="schedule">
     <div class="container">
       <h2>Schedule</h2>
-      <table class="tables">
-        <tbody>
-          <% schedule.each do |time, activity| %>
-            <tr>
-              <td><%= time %></td>
-              <td><%= activity %></td>
-            </tr>
-          <% end %>
-        </tbody>
-      </table>
+      <% if multi_day %>
+        <% schedule.each do |day, activities| %>
+          <h3><%= day %></h3>
+          <%= partial "partials/event/activities_table", locals: { activities: activities } %>
+        <% end %>
+      <% else %>
+        <%= partial "partials/event/activities_table", locals: { activities: schedule } %>
+      <% end %>
     </div>
   </section>
 <% end %>
