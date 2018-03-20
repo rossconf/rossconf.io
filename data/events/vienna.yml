@@ -130,17 +130,17 @@ team:
     github: alicetragedy
 
   - name: Pilar Huidobro
-    image_url: images/team/pilar.png
+    image_url: /images/team/pilar.png
     twitter: Althaire
     github: Althaire
 
   - name: Ramon Huidobro
-    image_url: images/team/ramon.jpg
+    image_url: /images/team/ramon.jpg
     twitter: senorhuidobro
     github: ramonh
 
   - name: Shelly Coen
-    image_url: images/team/shelly.jpg
+    image_url: /images/team/shelly.jpg
     twitter: shellycoen
     github: shellycoen
 
