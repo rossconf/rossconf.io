@@ -47,7 +47,7 @@ projects:
     description: "[Traveling Ruby](https://phusion.github.io/traveling-ruby) supplies self-contained, \"portable\" Ruby binaries that can run on any Linux distribution and OS X machine (and Windows with some caveats)."
     
   - name: Rails Girls
-    #image_url: /images/projects/railsgirls.png
+    image_url: /images/projects/railsgirls.png
     description: "After an introduction by one of [Rails Girls](https://github.com/railsgirls/railsgirls/)' initiators, [Linda Liukas](https://twitter.com/lindaliukas), aim is to separate out a dynamic events app."
 
 ###################### SCHEDULE ##########################
