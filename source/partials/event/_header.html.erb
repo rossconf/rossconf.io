@@ -1,6 +1,7 @@
 <header class="hero" style="<%= "background-image: url(#{event.header});" if event.header.present? %>">
   <div class="overlay"></div>
   <nav class="main">
+    <a href="/" class="home">ROSS conf</a>
     <ul>
       <li class="nav-link"><%= link_to "Contact", "#footer" %></li>
       <li class="nav-link"><%= link_to "Code of Conduct", "#footer" %></li>
@@ -16,9 +17,12 @@
       <div class="signup">
         <a href="<%= event.eventbrite_link %>" class="button big pink" target="_blank">Register today!</a>
         <p>
-          <a href="#footer">Or sign up for our newsletter</a>
+          <a href="#footer" class="newsletter-link">Or sign up for our newsletter</a>
         </p>
       </div>
     <% end %>
   </div>
+  <a href="/" class="ross">
+    <%= image_tag '/images/ross.png', alt: 'Take me home' %>
+  </a>
 </header>
