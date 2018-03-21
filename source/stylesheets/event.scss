@@ -210,6 +210,14 @@ img.image-round:hover {
     }
     .item {
       @extend %item;
+
+      width: calc(44%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 30px 25px;
+      zoom: .9;
+
       .image {
         width: auto;
         height: 170px;
@@ -239,7 +247,7 @@ img.image-round:hover {
       flex: 1 1 100%;
     }
     .sponsoring {
-      flex: 1 1 100%; 
+      flex: 1 1 100%;
     }
   }
 }
