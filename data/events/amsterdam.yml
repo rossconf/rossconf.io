@@ -23,8 +23,8 @@ social:
   facebook: https://www.facebook.com/rossconf
 
 location:
-  map_link: 'https://www.google.nl/maps/@52.3680452,4.8989132,14.13z?hl=en'
-  address: 'Amsterdam'
+  map_link: 'https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19488.045798325566!2d4.897221391612666!3d52.37031711216219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snl!4v1521666610833&output=embed'
+  address: 'Amsterdam, Netherlands'
 
 coc: "You can reach out to hello@rossconf.io and approach each of our team members at the event."
 
@@ -45,7 +45,7 @@ projects:
   - name: Traveling Ruby
     image_url: /images/projects/travelingruby.png
     description: "[Traveling Ruby](https://phusion.github.io/traveling-ruby) supplies self-contained, \"portable\" Ruby binaries that can run on any Linux distribution and OS X machine (and Windows with some caveats)."
-    
+
   - name: Rails Girls
     image_url: /images/projects/railsgirls.png
     description: "After an introduction by one of [Rails Girls](https://github.com/railsgirls/railsgirls/)' initiators, [Linda Liukas](https://twitter.com/lindaliukas), aim is to separate out a dynamic events app."
