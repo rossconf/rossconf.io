@@ -169,4 +169,4 @@ Please open an issue.
 
 # Code of Conduct
 
-This project adheres to the [Open Code of Conduct](http://todogroup.org/opencodeofconduct/#ROSSconf/hello@rossconf.io). By participating, you are expected to honor this code.
+This project adheres to the [Contributor Convenant Code of Conduct](https://github.com/rossconf/rossconf.io/blob/master/CODE_OF_CONDUCT.md). By participating, you are expected to honor this code. For the conferences we adhere to the [Berlin Code of Conduct](http://berlincodeofconduct.org/).
