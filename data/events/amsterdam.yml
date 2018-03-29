@@ -50,6 +50,10 @@ projects:
     image_url: /images/projects/railsgirls.png
     description: "After an introduction by one of [Rails Girls](https://github.com/railsgirls/railsgirls/)' initiators, [Linda Liukas](https://twitter.com/lindaliukas), aim is to separate out a dynamic events app."
 
+  - name: Foreman
+    image_url: /images/projects/foreman.svg
+    description: "[Foreman](https://theforeman.org/) is a complete lifecycle management tool for physical and virtual servers and will be presente by [Tomer Brisker](https://twitter.com/tbrisker_pro), one of it's core-contributors."
+
 ###################### SCHEDULE ##########################
 schedule:
   Friday May 11:
