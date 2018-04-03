@@ -176,17 +176,30 @@ img.image-round:hover {
 
 .projects {
   .container {
-    display: flex;
+    // display inline-block;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
+    text-align: center;
     h2 {
       flex: 1 1 100%;
     }
+
     .item {
       @extend %item;
+      float: left;
+      min-height: 350px;
+      display: inline-block;
+      text-align: center;
+
+      &:nth-child(8) {
+        margin-left: 33%;
+      }
+
       .image {
+        display: inline-block;
         height: 100px;
+        min-height: 100px;
+        max-width: 100px;
         max-height: 100px;
       }
     }
@@ -250,4 +263,9 @@ img.image-round:hover {
       flex: 1 1 100%;
     }
   }
+}
+
+.event_amsterdam h2,
+.event_amsterdam .coc {
+  text-align: center;
 }
