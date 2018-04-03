@@ -53,6 +53,10 @@ projects:
   - name: Foreman
     image_url: /images/projects/foreman.png
     description: "[Foreman](https://theforeman.org/) is a complete lifecycle management tool for physical and virtual servers and will be presented by [Tomer Brisker](https://twitter.com/tbrisker_pro), one of the core-contributors."
+    
+  - name: WeTransfer API
+    image_url: /images/sponsors/wetransfer.png
+    description: "Every month, 40 million people rely on [WeTransfer](https://wetransfer.github.io/) to share their creative ideas. At ROSS conf WeTransfer provides early access to their (soon public) API and welcome sample apps and contributions to their docs."
 
 ###################### SCHEDULE ##########################
 schedule:
