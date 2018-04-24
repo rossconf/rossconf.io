@@ -3,7 +3,7 @@ slug: amsterdam
 header: /images/eventheader/amsterdam.jpg
 header_front: /images/eventheader/amsterdam.jpg
 tagline: The European Ruby Open Source Software conference
-date_location: May 11-12, 2018 @ TBD
+date_location: May 11-12, 2018 @ Publitas, Zeeburgerpad 5, 1018 AH Amsterdam
 date: 11-05-2018
 description: '<p>ROSS conf Amsterdam gives open source software maintainers the platform to introduce their project to an audience of first time as well as existing contributors. After 15 minute introductions to the project, pressing issues and requests, the conference day is reserved for hands-on programming (or contributing through updating documentation or adding artwork!) and pairing with the maintainers. To conclude the hackathon the maintainers present data on bugs fixed, and pull requests merged.</p>'
 sponsoring_email: 'hello@rossconf.io'
@@ -42,9 +42,9 @@ projects:
     image_url: /images/projects/homebrew.png
     description: "[Homebrew](https://brew.sh/) is package manager for macOS written in Ruby and will be represented by core team member [Alyssa Ross](https://github.com/alyssais)."
 
-  - name: Traveling Ruby
-    image_url: /images/projects/travelingruby.png
-    description: "[Traveling Ruby](https://phusion.github.io/traveling-ruby) supplies self-contained, \"portable\" Ruby binaries that can run on any Linux distribution and OS X machine (and Windows with some caveats)."
+  - name: Support Central
+    image_url: /images/projects/supportcentral.png
+    description: "[Support Central](https://github.com/phusion/support_central/) is and open source aggregator tool to easily handle both community and commercial support in a central interface, by the makers of Phusion Passenger."
 
   - name: Rails Girls
     image_url: /images/projects/railsgirls.png
@@ -104,7 +104,7 @@ team:
 ###################### SPONSORS ##########################
 sponsors:
   - name: Publitas
-    url: 'https://www.publitas.com/'
+    url: 'https://www.publitas.com/jobs/senior-product-engineer/'
     image: '/images/sponsors/publitas.png'
 
   - name: Phusion
