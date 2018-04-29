@@ -46,10 +46,6 @@ projects:
     image_url: /images/projects/supportcentral.png
     description: "[Support Central](https://github.com/phusion/support_central/) is and open source aggregator tool to easily handle both community and commercial support in a central interface, by the makers of Phusion Passenger."
 
-  - name: Rails Girls
-    image_url: /images/projects/railsgirls.png
-    description: "After an introduction by one of [Rails Girls](https://github.com/railsgirls/railsgirls/)' initiators, [Linda Liukas](https://twitter.com/lindaliukas), aim is to separate out a dynamic events app."
-
   - name: Foreman
     image_url: /images/projects/foreman.png
     description: "[Foreman](https://theforeman.org/) is a complete lifecycle management tool for physical and virtual servers and will be presented by [Tomer Brisker](https://twitter.com/tbrisker_pro), one of the core-contributors."
