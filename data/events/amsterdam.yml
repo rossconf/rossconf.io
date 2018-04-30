@@ -23,8 +23,16 @@ social:
   facebook: https://www.facebook.com/rossconf
 
 location:
-  map_link: 'https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19488.045798325566!2d4.897221391612666!3d52.37031711216219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snl!4v1521666610833&output=embed'
-  address: 'Zeeburgerpad 5, 1018 AH, Amsterdam, Netherlands'
+  map_link: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.1918248019206!2d4.925658551309286!3d52.366941655214276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6090c9e873729%3A0xea72e37706d111bb!2sZeeburgerpad+5%2C+1018+AH+Amsterdam!5e0!3m2!1sen!2snl!4v1525070682777'
+  address: '<a href="https://www.publitas.com" target="_blank">
+      <strong>Publitas</strong>
+    </a>
+    <br />
+    Zeeburgerpad 5
+    <br />
+    1018 AH Amsterdam
+    <br />
+    Netherlands'
 
 coc: "You can reach out to hello@rossconf.io and approach each of our team members at the event."
 
