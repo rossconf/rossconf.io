@@ -2,7 +2,7 @@ city: Remote Friendly
 slug: CEST remote friendly
 header: /images/eventheader/marcel-strauss-pMm9g9KCz-c-unsplash-detail.jpg
 header_front: /images/eventheader/marcel-strauss-pMm9g9KCz-c-unsplash-detail-detail.jpg
-tagline: The European Remote Only Ruby Open Source Software conference
+tagline: The Remote Only Ruby Open Source Software conference
 date_location: Friday October 23, 2020
 date: 23-10-2020
 description: '<p>ROSS conf gives open source software maintainers the platform to introduce their project to an audience of first time as well as existing contributors. After introductions to the project, pressing issues and requests, the conference day is reserved for hands-on programming (or contributing through updating documentation or adding artwork!) and pairing with the maintainers. To conclude the hackathon the maintainers present data on bugs fixed, and pull requests merged.</p>'
@@ -43,9 +43,6 @@ projects:
     image_url:
     description: "[Gemstash](https://github.com/rubygems/gemstash) is both a cache for remote servers such as rubygems.org, and a private gem source."
 
-  - name: Alice
-    image_url:
-    description: "[Alice](https://github.com/CoralineAda/alice) is a spirited and game-loving Slack bot featuring a functional pipeline architecture and natural language processing capabilities."
 
 ###################### SPEAKERS ##########################
 speakers:
@@ -68,11 +65,6 @@ speakers:
     image_url: /images/speakers/luis_sagastume.png
     twitter: bronzdoc
     github: bronzdoc
-
-  - name: Coraline Ada Ehmke
-    image_url: /images/speakers/coraline_ada.jpg
-    twitter: CoralineAda
-    github: CoralineAda
 
 # ###################### SCHEDULE ##########################
 
